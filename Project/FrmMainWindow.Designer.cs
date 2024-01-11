@@ -92,9 +92,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.subMenu = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPlay = new Guna.UI2.WinForms.Guna2Button();
+            this.btnTodo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNews = new Guna.UI2.WinForms.Guna2Button();
             this.btnList = new Guna.UI2.WinForms.Guna2Button();
             this.ocpacityTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.label2 = new System.Windows.Forms.Label();
@@ -509,7 +509,6 @@
             this.btnHome.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnHome.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnHome.ForeColor = System.Drawing.Color.Black;
-            this.btnHome.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnHome.ImageOffset = new System.Drawing.Point(5, 0);
@@ -524,9 +523,9 @@
             // subMenu
             // 
             this.subMenu.BorderRadius = 10;
-            this.subMenu.Controls.Add(this.guna2Button6);
-            this.subMenu.Controls.Add(this.guna2Button5);
-            this.subMenu.Controls.Add(this.guna2Button4);
+            this.subMenu.Controls.Add(this.btnPlay);
+            this.subMenu.Controls.Add(this.btnTodo);
+            this.subMenu.Controls.Add(this.btnNews);
             this.subMenu.Controls.Add(this.btnList);
             this.subMenu.CustomizableEdges = customizableEdges35;
             this.beautifulTransition.SetDecoration(this.subMenu, Guna.UI2.AnimatorNS.DecorationType.None);
@@ -539,92 +538,92 @@
             this.subMenu.TabIndex = 4;
             this.subMenu.Visible = false;
             // 
-            // guna2Button6
+            // btnPlay
             // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 10;
-            this.guna2Button6.CustomizableEdges = customizableEdges27;
-            this.beautifulTransition.SetDecoration(this.guna2Button6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ocpacityTransition.SetDecoration(this.guna2Button6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button6.Location = new System.Drawing.Point(6, 153);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            this.guna2Button6.Size = new System.Drawing.Size(110, 40);
-            this.guna2Button6.TabIndex = 5;
-            this.guna2Button6.Text = "G-PLAY";
-            this.guna2Button6.TextOffset = new System.Drawing.Point(23, 0);
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            this.btnPlay.Animated = true;
+            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlay.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPlay.BorderRadius = 10;
+            this.btnPlay.CustomizableEdges = customizableEdges27;
+            this.beautifulTransition.SetDecoration(this.btnPlay, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition.SetDecoration(this.btnPlay, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnPlay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlay.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPlay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPlay.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnPlay.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPlay.ForeColor = System.Drawing.Color.White;
+            this.btnPlay.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.btnPlay.Image = ((System.Drawing.Image)(resources.GetObject("btnPlay.Image")));
+            this.btnPlay.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnPlay.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnPlay.Location = new System.Drawing.Point(6, 153);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            this.btnPlay.Size = new System.Drawing.Size(110, 40);
+            this.btnPlay.TabIndex = 5;
+            this.btnPlay.Text = "G-PLAY";
+            this.btnPlay.TextOffset = new System.Drawing.Point(23, 0);
+            this.btnPlay.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
-            // guna2Button5
+            // btnTodo
             // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderRadius = 10;
-            this.guna2Button5.CustomizableEdges = customizableEdges29;
-            this.beautifulTransition.SetDecoration(this.guna2Button5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ocpacityTransition.SetDecoration(this.guna2Button5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.guna2Button5.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button5.Location = new System.Drawing.Point(6, 107);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            this.guna2Button5.Size = new System.Drawing.Size(110, 40);
-            this.guna2Button5.TabIndex = 4;
-            this.guna2Button5.Text = "G-TODO";
-            this.guna2Button5.TextOffset = new System.Drawing.Point(23, 0);
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            this.btnTodo.Animated = true;
+            this.btnTodo.BackColor = System.Drawing.Color.Transparent;
+            this.btnTodo.BorderColor = System.Drawing.Color.Transparent;
+            this.btnTodo.BorderRadius = 10;
+            this.btnTodo.CustomizableEdges = customizableEdges29;
+            this.beautifulTransition.SetDecoration(this.btnTodo, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition.SetDecoration(this.btnTodo, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnTodo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTodo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTodo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTodo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTodo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnTodo.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTodo.ForeColor = System.Drawing.Color.White;
+            this.btnTodo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.btnTodo.Image = ((System.Drawing.Image)(resources.GetObject("btnTodo.Image")));
+            this.btnTodo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTodo.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnTodo.Location = new System.Drawing.Point(6, 107);
+            this.btnTodo.Name = "btnTodo";
+            this.btnTodo.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            this.btnTodo.Size = new System.Drawing.Size(110, 40);
+            this.btnTodo.TabIndex = 4;
+            this.btnTodo.Text = "G-TODO";
+            this.btnTodo.TextOffset = new System.Drawing.Point(23, 0);
+            this.btnTodo.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
-            // guna2Button4
+            // btnNews
             // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderRadius = 10;
-            this.guna2Button4.CustomizableEdges = customizableEdges31;
-            this.beautifulTransition.SetDecoration(this.guna2Button4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.ocpacityTransition.SetDecoration(this.guna2Button4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button4.Location = new System.Drawing.Point(6, 61);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            this.guna2Button4.Size = new System.Drawing.Size(110, 40);
-            this.guna2Button4.TabIndex = 3;
-            this.guna2Button4.Text = "G-NEWS";
-            this.guna2Button4.TextOffset = new System.Drawing.Point(23, 0);
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            this.btnNews.Animated = true;
+            this.btnNews.BackColor = System.Drawing.Color.Transparent;
+            this.btnNews.BorderColor = System.Drawing.Color.Transparent;
+            this.btnNews.BorderRadius = 10;
+            this.btnNews.CustomizableEdges = customizableEdges31;
+            this.beautifulTransition.SetDecoration(this.btnNews, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition.SetDecoration(this.btnNews, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnNews.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNews.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNews.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNews.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNews.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnNews.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNews.ForeColor = System.Drawing.Color.White;
+            this.btnNews.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.btnNews.Image = ((System.Drawing.Image)(resources.GetObject("btnNews.Image")));
+            this.btnNews.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnNews.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnNews.Location = new System.Drawing.Point(6, 61);
+            this.btnNews.Name = "btnNews";
+            this.btnNews.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            this.btnNews.Size = new System.Drawing.Size(110, 40);
+            this.btnNews.TabIndex = 3;
+            this.btnNews.Text = "G-NEWS";
+            this.btnNews.TextOffset = new System.Drawing.Point(23, 0);
+            this.btnNews.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // btnList
             // 
@@ -835,9 +834,9 @@
         private Guna.UI2.WinForms.Guna2Button btnSysReq;
         private Guna.UI2.WinForms.Guna2Panel gamePanel;
         private Guna.UI2.WinForms.Guna2Panel subMenu;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnPlay;
+        private Guna.UI2.WinForms.Guna2Button btnTodo;
+        private Guna.UI2.WinForms.Guna2Button btnNews;
         private Guna.UI2.WinForms.Guna2Button btnList;
         private Guna.UI2.WinForms.Guna2Button btnGame;
         private System.Windows.Forms.Timer menuTransition;

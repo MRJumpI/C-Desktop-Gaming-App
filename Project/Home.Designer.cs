@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -79,6 +77,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.pic4 = new System.Windows.Forms.Label();
             this.pic5 = new System.Windows.Forms.Label();
@@ -87,7 +88,6 @@
             this.pic6 = new System.Windows.Forms.Label();
             this.bgPic1 = new System.Windows.Forms.Label();
             this.justNoneUse = new System.Windows.Forms.Label();
-            this.ocpacityTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.time = new System.Windows.Forms.Label();
             this.day = new System.Windows.Forms.Label();
@@ -130,7 +130,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnUpcommingNext = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.upcommingGamePlatform = new System.Windows.Forms.Label();
             this.upcomingGameBG = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -150,6 +150,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.EAMainPanel = new System.Windows.Forms.Panel();
             this.timerTransition = new System.Windows.Forms.Timer(this.components);
+            this.ocpacityTransition1 = new Guna.UI2.WinForms.Guna2Transition();
+            this.ocpacityTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -180,6 +182,7 @@
             this.btnExit.BorderRadius = 15;
             this.btnExit.CustomizableEdges = customizableEdges1;
             this.ocpacityTransition.SetDecoration(this.btnExit, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnExit, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -200,6 +203,7 @@
             // 
             // pic4
             // 
+            this.ocpacityTransition1.SetDecoration(this.pic4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.pic4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pic4.Font = new System.Drawing.Font("Tw Cen MT", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.pic4.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -214,6 +218,7 @@
             // 
             // pic5
             // 
+            this.ocpacityTransition1.SetDecoration(this.pic5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.pic5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pic5.Font = new System.Drawing.Font("Tw Cen MT", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.pic5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -228,6 +233,7 @@
             // 
             // pic3
             // 
+            this.ocpacityTransition1.SetDecoration(this.pic3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.pic3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pic3.Font = new System.Drawing.Font("Tw Cen MT", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.pic3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -243,6 +249,7 @@
             // 
             // pic2
             // 
+            this.ocpacityTransition1.SetDecoration(this.pic2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.pic2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pic2.Font = new System.Drawing.Font("Tw Cen MT", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.pic2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -256,6 +263,7 @@
             // 
             // pic6
             // 
+            this.ocpacityTransition1.SetDecoration(this.pic6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.pic6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.pic6.Font = new System.Drawing.Font("Tw Cen MT", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.pic6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -271,6 +279,7 @@
             // 
             // bgPic1
             // 
+            this.ocpacityTransition1.SetDecoration(this.bgPic1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.bgPic1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.bgPic1.Font = new System.Drawing.Font("Tw Cen MT", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bgPic1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -285,35 +294,12 @@
             // 
             // justNoneUse
             // 
+            this.ocpacityTransition1.SetDecoration(this.justNoneUse, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.justNoneUse, Guna.UI2.AnimatorNS.DecorationType.None);
             this.justNoneUse.Location = new System.Drawing.Point(996, 894);
             this.justNoneUse.Name = "justNoneUse";
             this.justNoneUse.Size = new System.Drawing.Size(390, 16);
             this.justNoneUse.TabIndex = 31;
-            // 
-            // ocpacityTransition
-            // 
-            this.ocpacityTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
-            this.ocpacityTransition.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.ocpacityTransition.DefaultAnimation = animation1;
-            this.ocpacityTransition.Interval = 50;
-            this.ocpacityTransition.MaxAnimationTime = 500;
-            this.ocpacityTransition.TimeStep = 0.15F;
             // 
             // guna2Panel1
             // 
@@ -321,6 +307,7 @@
             this.guna2Panel1.Controls.Add(this.time);
             this.guna2Panel1.CustomizableEdges = customizableEdges3;
             this.ocpacityTransition.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel1.FillColor = System.Drawing.Color.DimGray;
             this.guna2Panel1.Location = new System.Drawing.Point(959, 76);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -331,6 +318,7 @@
             // time
             // 
             this.time.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.time, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.time, Guna.UI2.AnimatorNS.DecorationType.None);
             this.time.Font = new System.Drawing.Font("Lucida Console", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.time.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -344,6 +332,7 @@
             // day
             // 
             this.day.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.day, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.day, Guna.UI2.AnimatorNS.DecorationType.None);
             this.day.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.day.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -361,6 +350,7 @@
             this.guna2Panel2.Controls.Add(this.label1description);
             this.guna2Panel2.CustomizableEdges = customizableEdges5;
             this.ocpacityTransition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
             this.guna2Panel2.Location = new System.Drawing.Point(47, 586);
             this.guna2Panel2.Name = "guna2Panel2";
@@ -372,6 +362,7 @@
             // 
             this.label1description.AutoSize = false;
             this.label1description.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.label1description, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label1description, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label1description.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1description.Location = new System.Drawing.Point(15, 6);
@@ -397,6 +388,7 @@
             this.guna2Panel3.Controls.Add(this.guna2Panel5);
             this.guna2Panel3.CustomizableEdges = customizableEdges17;
             this.ocpacityTransition.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
             this.guna2Panel3.Location = new System.Drawing.Point(47, 103);
             this.guna2Panel3.Name = "guna2Panel3";
@@ -412,6 +404,7 @@
             this.storesPanel.CustomBorderColor = System.Drawing.Color.Gray;
             this.storesPanel.CustomizableEdges = customizableEdges7;
             this.ocpacityTransition.SetDecoration(this.storesPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.storesPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.storesPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.storesPanel.Location = new System.Drawing.Point(48, 208);
             this.storesPanel.Name = "storesPanel";
@@ -422,6 +415,7 @@
             // storesname
             // 
             this.storesname.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.storesname, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.storesname, Guna.UI2.AnimatorNS.DecorationType.None);
             this.storesname.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.storesname.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -434,6 +428,7 @@
             // 
             // label8
             // 
+            this.ocpacityTransition1.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label8.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -455,6 +450,7 @@
             this.platformsPanel.CustomBorderColor = System.Drawing.Color.Gray;
             this.platformsPanel.CustomizableEdges = customizableEdges9;
             this.ocpacityTransition.SetDecoration(this.platformsPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.platformsPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.platformsPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.platformsPanel.Location = new System.Drawing.Point(48, 124);
             this.platformsPanel.Name = "platformsPanel";
@@ -465,6 +461,7 @@
             // platformName
             // 
             this.platformName.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.platformName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.platformName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.platformName.Font = new System.Drawing.Font("Tw Cen MT Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.platformName.ForeColor = System.Drawing.Color.Silver;
@@ -478,6 +475,7 @@
             // gameDate
             // 
             this.gameDate.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.gameDate, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.gameDate, Guna.UI2.AnimatorNS.DecorationType.None);
             this.gameDate.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.gameDate.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -490,6 +488,7 @@
             // 
             // label11
             // 
+            this.ocpacityTransition1.SetDecoration(this.label11, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label11, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label11.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -503,6 +502,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label9, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label9, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label9.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -521,6 +521,7 @@
             this.ratingData.Controls.Add(this.label6);
             this.ratingData.CustomizableEdges = customizableEdges11;
             this.ocpacityTransition.SetDecoration(this.ratingData, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.ratingData, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ratingData.Location = new System.Drawing.Point(388, 59);
             this.ratingData.Name = "ratingData";
             this.ratingData.ShadowDecoration.CustomizableEdges = customizableEdges12;
@@ -530,6 +531,7 @@
             // rating
             // 
             this.rating.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.rating, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.rating, Guna.UI2.AnimatorNS.DecorationType.None);
             this.rating.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.rating.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -542,6 +544,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label6.Font = new System.Drawing.Font("Tw Cen MT Condensed", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -554,6 +557,7 @@
             // nameUnderLine
             // 
             this.nameUnderLine.BackColor = System.Drawing.Color.Gainsboro;
+            this.ocpacityTransition1.SetDecoration(this.nameUnderLine, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.nameUnderLine, Guna.UI2.AnimatorNS.DecorationType.None);
             this.nameUnderLine.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.nameUnderLine.Location = new System.Drawing.Point(27, 43);
@@ -564,6 +568,7 @@
             // gameName
             // 
             this.gameName.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.gameName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.gameName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.gameName.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.gameName.ForeColor = System.Drawing.Color.White;
@@ -579,6 +584,7 @@
             this.btnNext.BorderRadius = 5;
             this.btnNext.CustomizableEdges = customizableEdges13;
             this.ocpacityTransition.SetDecoration(this.btnNext, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnNext, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnNext.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnNext.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnNext.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -602,6 +608,7 @@
             this.guna2Panel5.Controls.Add(this.screenshot1);
             this.guna2Panel5.CustomizableEdges = customizableEdges15;
             this.ocpacityTransition.SetDecoration(this.guna2Panel5, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel5, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel5.Location = new System.Drawing.Point(513, 3);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges16;
@@ -611,6 +618,7 @@
             // screenshot4
             // 
             this.screenshot4.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.screenshot4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.screenshot4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.screenshot4.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.screenshot4.Location = new System.Drawing.Point(149, 108);
@@ -623,6 +631,7 @@
             // screenshot3
             // 
             this.screenshot3.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.screenshot3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.screenshot3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.screenshot3.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.screenshot3.Location = new System.Drawing.Point(10, 90);
@@ -635,6 +644,7 @@
             // screenshot2
             // 
             this.screenshot2.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.screenshot2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.screenshot2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.screenshot2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.screenshot2.Location = new System.Drawing.Point(41, 4);
@@ -647,6 +657,7 @@
             // screenshot1
             // 
             this.screenshot1.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.screenshot1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.screenshot1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.screenshot1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.screenshot1.Location = new System.Drawing.Point(160, 13);
@@ -663,6 +674,7 @@
             this.guna2Panel4.Controls.Add(this.label1);
             this.guna2Panel4.CustomizableEdges = customizableEdges19;
             this.ocpacityTransition.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel4.FillColor = System.Drawing.Color.DarkGray;
             this.guna2Panel4.Location = new System.Drawing.Point(62, 50);
             this.guna2Panel4.Name = "guna2Panel4";
@@ -673,6 +685,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label1.Font = new System.Drawing.Font("Tw Cen MT Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Firebrick;
@@ -686,6 +699,7 @@
             // guideInfo
             // 
             this.guideInfo.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.guideInfo, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.guideInfo, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guideInfo.Font = new System.Drawing.Font("Tw Cen MT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.guideInfo.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -702,6 +716,7 @@
             this.btnHelp.BorderRadius = 5;
             this.btnHelp.CustomizableEdges = customizableEdges21;
             this.ocpacityTransition.SetDecoration(this.btnHelp, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnHelp, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnHelp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnHelp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnHelp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -729,6 +744,7 @@
             this.EADataPanel.Controls.Add(this.EAGameNum);
             this.EADataPanel.CustomizableEdges = customizableEdges23;
             this.ocpacityTransition.SetDecoration(this.EADataPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.EADataPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EADataPanel.FillColor = System.Drawing.Color.Silver;
             this.EADataPanel.Location = new System.Drawing.Point(19, 5);
             this.EADataPanel.Name = "EADataPanel";
@@ -739,6 +755,7 @@
             // EAPlatform
             // 
             this.EAPlatform.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.EAPlatform, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.EAPlatform, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EAPlatform.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.EAPlatform.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -751,6 +768,7 @@
             // eaPic1
             // 
             this.eaPic1.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.eaPic1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.eaPic1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.eaPic1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.eaPic1.Location = new System.Drawing.Point(260, 13);
@@ -763,6 +781,7 @@
             // eaPic2
             // 
             this.eaPic2.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.eaPic2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.eaPic2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.eaPic2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.eaPic2.Location = new System.Drawing.Point(304, 6);
@@ -775,6 +794,7 @@
             // EARating
             // 
             this.EARating.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.EARating, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.EARating, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EARating.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.EARating.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -787,6 +807,7 @@
             // EAname
             // 
             this.EAname.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.EAname, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.EAname, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EAname.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.EAname.ForeColor = System.Drawing.Color.Black;
@@ -799,6 +820,7 @@
             // EAGameNum
             // 
             this.EAGameNum.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.EAGameNum, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.EAGameNum, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EAGameNum.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.EAGameNum.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -816,6 +838,7 @@
             this.guna2Panel8.Controls.Add(this.label10);
             this.guna2Panel8.CustomizableEdges = customizableEdges29;
             this.ocpacityTransition.SetDecoration(this.guna2Panel8, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel8, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Panel8.Location = new System.Drawing.Point(15, 9);
             this.guna2Panel8.Name = "guna2Panel8";
@@ -829,6 +852,7 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientPanel2);
             this.guna2GradientPanel1.CustomizableEdges = customizableEdges27;
             this.ocpacityTransition.SetDecoration(this.guna2GradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2GradientPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.Gold;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.Olive;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(373, 6);
@@ -843,6 +867,7 @@
             this.guna2GradientPanel2.Controls.Add(this.label12);
             this.guna2GradientPanel2.CustomizableEdges = customizableEdges25;
             this.ocpacityTransition.SetDecoration(this.guna2GradientPanel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2GradientPanel2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel2.Location = new System.Drawing.Point(2, 3);
@@ -854,6 +879,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label12, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label12, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label12.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.Yellow;
@@ -866,6 +892,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label10, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label10, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label10.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
@@ -879,11 +906,12 @@
             // 
             this.guna2Panel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel9.BorderRadius = 15;
-            this.guna2Panel9.Controls.Add(this.guna2Button1);
+            this.guna2Panel9.Controls.Add(this.btnUpcommingNext);
             this.guna2Panel9.Controls.Add(this.guna2Panel10);
             this.guna2Panel9.Controls.Add(this.guna2Panel11);
             this.guna2Panel9.CustomizableEdges = customizableEdges41;
             this.ocpacityTransition.SetDecoration(this.guna2Panel9, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel9, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.guna2Panel9.Location = new System.Drawing.Point(47, 378);
             this.guna2Panel9.Name = "guna2Panel9";
@@ -891,28 +919,29 @@
             this.guna2Panel9.Size = new System.Drawing.Size(491, 201);
             this.guna2Panel9.TabIndex = 54;
             // 
-            // guna2Button1
+            // btnUpcommingNext
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CustomizableEdges = customizableEdges31;
-            this.ocpacityTransition.SetDecoration(this.guna2Button1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(81)))), ((int)(((byte)(81)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.guna2Button1.ImageOffset = new System.Drawing.Point(70, 0);
-            this.guna2Button1.Location = new System.Drawing.Point(32, 162);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            this.guna2Button1.Size = new System.Drawing.Size(421, 34);
-            this.guna2Button1.TabIndex = 50;
-            this.guna2Button1.Text = "S H O W - N E X T - G A M E";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnUpcommingNext.Animated = true;
+            this.btnUpcommingNext.BorderRadius = 10;
+            this.btnUpcommingNext.CustomizableEdges = customizableEdges31;
+            this.ocpacityTransition.SetDecoration(this.btnUpcommingNext, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnUpcommingNext, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.btnUpcommingNext.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpcommingNext.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUpcommingNext.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUpcommingNext.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUpcommingNext.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(81)))), ((int)(((byte)(81)))));
+            this.btnUpcommingNext.Font = new System.Drawing.Font("Tw Cen MT Condensed", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnUpcommingNext.ForeColor = System.Drawing.Color.White;
+            this.btnUpcommingNext.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnUpcommingNext.ImageOffset = new System.Drawing.Point(70, 0);
+            this.btnUpcommingNext.Location = new System.Drawing.Point(32, 162);
+            this.btnUpcommingNext.Name = "btnUpcommingNext";
+            this.btnUpcommingNext.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            this.btnUpcommingNext.Size = new System.Drawing.Size(421, 34);
+            this.btnUpcommingNext.TabIndex = 50;
+            this.btnUpcommingNext.Text = "S H O W - N E X T - G A M E";
+            this.btnUpcommingNext.Click += new System.EventHandler(this.btnUpcommingNext_Click);
             // 
             // guna2Panel10
             // 
@@ -924,6 +953,7 @@
             this.guna2Panel10.Controls.Add(this.upcomingGameName);
             this.guna2Panel10.CustomizableEdges = customizableEdges33;
             this.ocpacityTransition.SetDecoration(this.guna2Panel10, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel10, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel10.FillColor = System.Drawing.Color.Silver;
             this.guna2Panel10.Location = new System.Drawing.Point(15, 65);
             this.guna2Panel10.Name = "guna2Panel10";
@@ -934,6 +964,7 @@
             // upcommingGamePlatform
             // 
             this.upcommingGamePlatform.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.upcommingGamePlatform, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.upcommingGamePlatform, Guna.UI2.AnimatorNS.DecorationType.None);
             this.upcommingGamePlatform.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.upcommingGamePlatform.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -946,6 +977,7 @@
             // upcomingGameBG
             // 
             this.upcomingGameBG.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.upcomingGameBG, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.upcomingGameBG, Guna.UI2.AnimatorNS.DecorationType.None);
             this.upcomingGameBG.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.upcomingGameBG.Location = new System.Drawing.Point(263, -9);
@@ -958,6 +990,7 @@
             // upcomingGameReleaseDate
             // 
             this.upcomingGameReleaseDate.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.upcomingGameReleaseDate, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.upcomingGameReleaseDate, Guna.UI2.AnimatorNS.DecorationType.None);
             this.upcomingGameReleaseDate.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.upcomingGameReleaseDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -970,6 +1003,7 @@
             // upcomingGameName
             // 
             this.upcomingGameName.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.upcomingGameName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.upcomingGameName, Guna.UI2.AnimatorNS.DecorationType.None);
             this.upcomingGameName.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.upcomingGameName.ForeColor = System.Drawing.Color.Black;
@@ -987,6 +1021,7 @@
             this.guna2Panel11.Controls.Add(this.label18);
             this.guna2Panel11.CustomizableEdges = customizableEdges39;
             this.ocpacityTransition.SetDecoration(this.guna2Panel11, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel11, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Panel11.Location = new System.Drawing.Point(6, 7);
             this.guna2Panel11.Name = "guna2Panel11";
@@ -1000,6 +1035,7 @@
             this.guna2GradientPanel3.Controls.Add(this.guna2GradientPanel4);
             this.guna2GradientPanel3.CustomizableEdges = customizableEdges37;
             this.ocpacityTransition.SetDecoration(this.guna2GradientPanel3, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2GradientPanel3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2GradientPanel3.FillColor = System.Drawing.SystemColors.Highlight;
             this.guna2GradientPanel3.FillColor2 = System.Drawing.SystemColors.HotTrack;
             this.guna2GradientPanel3.Location = new System.Drawing.Point(407, 6);
@@ -1014,6 +1050,7 @@
             this.guna2GradientPanel4.Controls.Add(this.label17);
             this.guna2GradientPanel4.CustomizableEdges = customizableEdges35;
             this.ocpacityTransition.SetDecoration(this.guna2GradientPanel4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2GradientPanel4, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel4.Location = new System.Drawing.Point(2, 3);
@@ -1025,6 +1062,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label17, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label17, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label17.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label17.ForeColor = System.Drawing.SystemColors.MenuHighlight;
@@ -1037,6 +1075,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.ocpacityTransition1.SetDecoration(this.label18, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label18, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label18.Font = new System.Drawing.Font("Tw Cen MT Condensed", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label18.ForeColor = System.Drawing.SystemColors.Control;
@@ -1050,6 +1089,7 @@
             // 
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.guna2HtmlLabel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.guna2HtmlLabel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tw Cen MT Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
@@ -1066,6 +1106,7 @@
             this.guna2Panel12.Controls.Add(this.label14);
             this.guna2Panel12.CustomizableEdges = customizableEdges43;
             this.ocpacityTransition.SetDecoration(this.guna2Panel12, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.guna2Panel12, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2Panel12.FillColor = System.Drawing.Color.Brown;
             this.guna2Panel12.Location = new System.Drawing.Point(563, 383);
             this.guna2Panel12.Name = "guna2Panel12";
@@ -1076,6 +1117,7 @@
             // label14
             // 
             this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.ocpacityTransition1.SetDecoration(this.label14, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label14, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label14.Font = new System.Drawing.Font("Tw Cen MT Condensed", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -1095,6 +1137,7 @@
             this.EAUpperMainPanel.Controls.Add(this.EAMainPanel);
             this.EAUpperMainPanel.Controls.Add(this.guna2Panel8);
             this.ocpacityTransition.SetDecoration(this.EAUpperMainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.EAUpperMainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EAUpperMainPanel.Location = new System.Drawing.Point(544, 482);
             this.EAUpperMainPanel.Name = "EAUpperMainPanel";
             this.EAUpperMainPanel.Size = new System.Drawing.Size(491, 381);
@@ -1107,6 +1150,7 @@
             this.btnUP.BorderRadius = 14;
             this.btnUP.CustomizableEdges = customizableEdges45;
             this.ocpacityTransition.SetDecoration(this.btnUP, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnUP, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnUP.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnUP.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnUP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1131,6 +1175,7 @@
             this.btnDown.BorderRadius = 14;
             this.btnDown.CustomizableEdges = customizableEdges47;
             this.ocpacityTransition.SetDecoration(this.btnDown, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.btnDown, Guna.UI2.AnimatorNS.DecorationType.None);
             this.btnDown.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnDown.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnDown.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -1150,6 +1195,7 @@
             // 
             // label2
             // 
+            this.ocpacityTransition1.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.ocpacityTransition.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Tw Cen MT Condensed", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(65)))));
@@ -1164,6 +1210,7 @@
             this.EAMainPanel.BackColor = System.Drawing.Color.Transparent;
             this.EAMainPanel.Controls.Add(this.EADataPanel);
             this.ocpacityTransition.SetDecoration(this.EAMainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this.EAMainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.EAMainPanel.Location = new System.Drawing.Point(0, 63);
             this.EAMainPanel.Name = "EAMainPanel";
             this.EAMainPanel.Size = new System.Drawing.Size(462, 315);
@@ -1173,6 +1220,54 @@
             // 
             this.timerTransition.Interval = 3500;
             this.timerTransition.Tick += new System.EventHandler(this.timeTransition_Tick);
+            // 
+            // ocpacityTransition1
+            // 
+            this.ocpacityTransition1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
+            this.ocpacityTransition1.Cursor = null;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.ocpacityTransition1.DefaultAnimation = animation2;
+            this.ocpacityTransition1.Interval = 50;
+            this.ocpacityTransition1.MaxAnimationTime = 500;
+            this.ocpacityTransition1.TimeStep = 0.15F;
+            // 
+            // ocpacityTransition
+            // 
+            this.ocpacityTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
+            this.ocpacityTransition.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
+            this.ocpacityTransition.DefaultAnimation = animation1;
+            this.ocpacityTransition.Interval = 50;
+            this.ocpacityTransition.MaxAnimationTime = 500;
+            this.ocpacityTransition.TimeStep = 0.15F;
             // 
             // Home
             // 
@@ -1200,6 +1295,7 @@
             this.Controls.Add(this.bgPic1);
             this.Controls.Add(this.btnHelp);
             this.ocpacityTransition.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.ocpacityTransition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home";
             this.Text = "Home";
@@ -1249,7 +1345,6 @@
         private Label pic6;
         private Label bgPic1;
         private Label justNoneUse;
-        private Guna.UI2.WinForms.Guna2Transition ocpacityTransition;
         private System.Windows.Forms.Timer timerTransition;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Label time;
@@ -1292,7 +1387,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel eaPic2;
         private Label EAGameNum;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnUpcommingNext;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Label upcommingGamePlatform;
         private Guna.UI2.WinForms.Guna2HtmlLabel upcomingGameBG;
@@ -1312,5 +1407,7 @@
         private Guna.UI2.WinForms.Guna2Button btnDown;
         private Guna.UI2.WinForms.Guna2Button btnUP;
         private Label label2;
+        private Guna.UI2.WinForms.Guna2Transition ocpacityTransition;
+        private Guna.UI2.WinForms.Guna2Transition ocpacityTransition1;
     }
 }

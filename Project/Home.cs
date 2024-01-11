@@ -142,9 +142,8 @@ namespace Project
             upcomingGameName.Text = (string)dictionary["Name"];
             upcomingGameReleaseDate.Text = (string)dictionary["Releaseddate"];
             upcommingGamePlatform.Text = (string)dictionary["Platforms"];
-            upcomingGameBG.Text = (string)dictionary["BackgroundImage"];
+            upcomingGameBG.Text = "<img src=\" "+ (string)dictionary["BackgroundImage"] + "\" alt=\"Game BG\" width=\"200\" height=\"100\" />";
         }
-
         private async void makeTenPanel()
         {
             try
@@ -305,16 +304,7 @@ namespace Project
             storesPanel.Width = storesname.Width + 20;
 
             //animation
-            ocpacityTransition.ShowSync(gameName);
-            ocpacityTransition.ShowSync(gameDate);
-            ocpacityTransition.ShowSync(screenshot1);
-            ocpacityTransition.ShowSync(screenshot2);
-            ocpacityTransition.ShowSync(screenshot3);
-            ocpacityTransition.ShowSync(screenshot4);
-            ocpacityTransition.ShowSync(storesname);
-            ocpacityTransition.ShowSync(platformName); 
-            ocpacityTransition.ShowSync(platformsPanel);
-            ocpacityTransition.ShowSync(rating);
+            
             }
             catch(Exception e) { }
         }
@@ -368,6 +358,17 @@ namespace Project
         {
             int change = EAMainPanel.VerticalScroll.Value + EAMainPanel.VerticalScroll.SmallChange * 30;
             EAMainPanel.AutoScrollPosition = new Point(0, change);
+        }
+
+        private void btnUpcommingNext_Click(object sender, EventArgs e)
+        {
+            if (indexUpGame < 4)
+            {
+                indexUpGame++;
+            }
+            else indexUpGame = 0;
+
+            changeUpcomigGameData(upcomingGameData[indexUpGame]);
         }
     }
 }
