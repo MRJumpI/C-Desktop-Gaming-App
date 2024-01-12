@@ -132,26 +132,26 @@ namespace Project
             switch (pressedID)
             {
                 case 1:
-                    SetActiveButton(btnDashboard, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_dashboard.png",label11);
+                    SetActiveButton(btnDashboard, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_dashboard.png", label11);
                     break;
                 case 2:
-                    SetActiveButton(btnHome, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\home.png",label10);
+                    SetActiveButton(btnHome, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\home.png", label10);
                     break;
                 case 3:
-                    SetActiveButton(btnGame, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_games.png",label9);
+                    SetActiveButton(btnGame, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_games.png", label9);
                     break;
                 case 4:
-                    SetActiveButton(btnSysReq, Color.FromArgb(224, 224, 224), Color.Black ,Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\blac_gamesystemReq.png",label8);
+                    SetActiveButton(btnSysReq, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\blac_gamesystemReq.png", label8);
                     break;
                 case 5:
-                    SetActiveButton(btnEsport, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_esport.png",label6);
+                    SetActiveButton(btnEsport, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_esport.png", label6);
                     break;
                 // Add more cases as needed
                 default:
                     break;
             }
+            miniPanelHandel();
         }
-
      
 
             public void ResetAllButtons()
@@ -213,6 +213,7 @@ namespace Project
 
         public void changActiveInGame(int gameBtnID)
         {
+            
             if (gameBtnID == 0)
             {
                 btnList.FillColor = Color.FromArgb(224, 224, 224);
@@ -314,19 +315,25 @@ namespace Project
                 btnPlay.ForeColor = Color.Black;
 
             }
+            miniPanelHandel();
         }
         private void btnMenu_Click(object sender, EventArgs e)
         {
             menuTransition.Start();
         }
 
-
+        public void miniPanelHandel() {
+           
+                subMenu.Visible = false;
+                
+           
+        }
         private void btnGame_Click_1(object sender, EventArgs e)
         {
             if (subMenu.Visible == true)
             {
                 subMenu.Visible = false;
-                beautifulTransition.HideSync(subMenu);
+                
             }
             else
             {
@@ -349,7 +356,7 @@ namespace Project
         {
             ChangeActive(2);
             loadform(new Home());
-
+            
         }
         private void btnDashboard_Click(object sender, EventArgs e)
         {

@@ -259,5 +259,225 @@ namespace Project
             return fiveUpcomingGames.ToArray();
         }
 
+
+
+        public static void getGameDataBySearch()
+        {
+            // Example usage:
+            string apiKey = "1db5901aac8e4f32b06bd29e31a675d7";
+
+            // Take the game name from the user
+            Console.Write("Enter the game name: ");
+            string gameName = Console.ReadLine();
+
+            // Format the search parameter for the API URL
+            string searchParam = $"search={Uri.EscapeDataString(gameName)}";
+
+            string apiUrl = $"https://api.rawg.io/api/games?{searchParam}&key={apiKey}";
+
+            RawgApiHelper apiHelper = new RawgApiHelper(apiKey);
+            RawgApiResult apiResult = apiHelper.GetGameData(apiUrl).Result;
+
+            if (apiResult != null && apiResult.Count > 0)
+            {
+                var game = apiResult.Games[0]; // Assuming the first result is the desired game
+
+                Console.WriteLine($"Game Name: {game.Name}");
+                foreach (var platform in game.Platforms)
+                {
+                    Console.WriteLine($"Platform: {platform.PlatformDetail.Name}");
+                }
+
+                if (game.Stores != null && game.Stores.Count > 0)
+                {
+                    foreach (var storeItem in game.Stores)
+                    {
+                        // Accessing store information
+                        var store = storeItem.Store;
+                        Console.WriteLine($"Store Name: {store.Name}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No Store");
+                }
+
+                Console.WriteLine($"Released: {game.Released}");
+                Console.WriteLine($"Background Image: {game.BackgroundImage}");
+                Console.WriteLine($"Rating: {game.Rating}");
+                Console.WriteLine($"Ratings Count: {game.RatingsCount}");
+                Console.WriteLine($"Reviews Text Count: {game.ReviewsTextCount}");
+                Console.WriteLine($"Short Screenshots:");
+
+                foreach (var screenshot in game.ShortScreenshots)
+                {
+                    Console.WriteLine($"  - ID: {screenshot.Id}, Image: {screenshot.Image}");
+                }
+
+                Console.WriteLine(new string('-', 30));
+            }
+            else
+            {
+                Console.WriteLine($"No data found for the game with name: {gameName}");
+            }
+        }
+
+        public static void getGameDataJustToShow()
+        {
+            // Example usage:
+            string apiKey = "1db5901aac8e4f32b06bd29e31a675d7";
+
+            string apiUrl = $"https://api.rawg.io/api/games?key={apiKey}";
+
+            RawgApiHelper apiHelper = new RawgApiHelper(apiKey);
+            RawgApiResult apiResult = apiHelper.GetGameData(apiUrl).Result;
+
+            if (apiResult != null && apiResult.Games.Count > 0)
+            {
+                Console.WriteLine("Five Games Data:");
+
+                // Limit the loop to iterate only over the first 5 games
+                for (int i = 0; i < 5 && i < apiResult.Games.Count; i++)
+                {
+                    var game = apiResult.Games[i];
+
+                    Console.WriteLine($"Game Name: {game.Name}");
+                    foreach (var platform in game.Platforms)
+                    {
+                        Console.WriteLine($"Platform: {platform.PlatformDetail.Name}");
+                    }
+
+                    if (game.Stores != null && game.Stores.Count > 0)
+                    {
+                        foreach (var storeItem in game.Stores)
+                        {
+                            // Accessing store information
+                            var store = storeItem.Store;
+                            Console.WriteLine($"Store Name: {store.Name}");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No Store");
+                    }
+
+                    Console.WriteLine($"Released: {game.Released}");
+                    Console.WriteLine($"Background Image: {game.BackgroundImage}");
+                    Console.WriteLine($"Rating: {game.Rating}");
+                    Console.WriteLine($"Ratings Count: {game.RatingsCount}");
+                    Console.WriteLine($"Reviews Text Count: {game.ReviewsTextCount}");
+                    Console.WriteLine($"Short Screenshots:");
+
+                    foreach (var screenshot in game.ShortScreenshots)
+                    {
+                        Console.WriteLine($"  - ID: {screenshot.Id}, Image: {screenshot.Image}");
+                    }
+
+                    Console.WriteLine(new string('-', 30));
+                }
+            }
+            else
+            {
+                Console.WriteLine("No games data available.");
+            }
+        }
+
+        public async Task<Dictionary<string, object>>  getGameSysReqBySearch(String gameName)
+        {
+            Dictionary<string, object> sysReqGames = new Dictionary<string, object>();
+            try { 
+            // Example usage:
+            string apiKey = "1db5901aac8e4f32b06bd29e31a675d7";
+
+            
+
+            // Format the search parameter for the API URL
+            string searchParam = $"search={Uri.EscapeDataString(gameName)}";
+
+            string apiUrl = $"https://api.rawg.io/api/games?{searchParam}&key={apiKey}";
+
+            RawgApiHelper apiHelper = new RawgApiHelper(apiKey);
+            RawgApiResult apiResult = apiHelper.GetGameData(apiUrl).Result;
+
+            if (apiResult != null && apiResult.Count > 0)
+            {
+                var game = apiResult.Games[0]; // Assuming the first result is the desired game
+
+                    // Initialize variables for each iteration
+                    List<string> platformsGame = new List<string>();
+                    List<string> screeshotsGame = new List<string>();
+                    List<string> storesGame = new List<string>();
+
+                    //getting name
+                    string nameGame = game.Name.ToString();
+
+                    foreach (var platform in game.Platforms)
+                    {
+                        //getting PlatForms
+                        platformsGame.Add(platform.PlatformDetail.Name.ToString() + " - ");
+                    }
+
+
+                    string releaseddate=game.Released.ToString();
+                    string backgroundImage=game.BackgroundImage.ToString();
+
+                    foreach (var screenshot in game.ShortScreenshots)
+                    {
+                        screeshotsGame.Add(screenshot.Image.ToString());
+                    }
+
+
+
+                if (game.Stores != null && game.Stores.Count > 0)
+                {
+                    foreach (var storeItem in game.Stores)
+                    {
+                        // Accessing store information
+                        var store = storeItem.Store;
+                        storesGame.Add( store.Name.ToString()+" - ");
+                    }
+                }
+                else
+                {
+                    storesGame.Add("No Store");
+                }
+                    // Create a dictionary with the current data
+                    Dictionary<string, object> gameData = new Dictionary<string, object>
+                            {
+                                { "Name", nameGame },
+                                { "Platforms", string.Join("", platformsGame) },
+                                { "stores", string.Join("", storesGame) },
+                                { "Releaseddate", releaseddate },
+                                { "BackgroundImage", backgroundImage },
+                                { "ScreenShots",screeshotsGame.ToArray() }
+                            };
+                    //MessageBox.Show(nameGame+ backgroundImage);
+                    // Add the current game's data to the list
+                    return gameData;
+                }
+            else
+            {
+                    MessageBox.Show($"No data found for the game with name: {gameName}");
+                    
+            }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                MessageBox.Show("Sorry Mate! There issue in your internet or back sever not Getting Data!!");
+                return sysReqGames;
+            }
+
+            // If an exception occurs, return an empty array or handle it appropriately
+            return sysReqGames;
+
+        }
+
+
+
+
     }
+
+
+
 }

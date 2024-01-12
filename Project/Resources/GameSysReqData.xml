@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Game name="Call of Duty: Modern Warfare 2">
+    <minimum_system_requirements>
+      <CPU>Intel Core I3-6100 / Core I5-2500K or AMD Ryzen 3 1200</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>Nvidia GeForce GTX 960 or AMD Radeon RX 470, 2GB</GPU>
+      <DX>DirectX 12</DX>
+      <OS>Windows 10 64-bit (latest update)</OS>
+      <STO>72 GB, Hi-rez assets cache: Up to 32GB</STO>
+      <Sound>DirectX Compatible</Sound>
+      <NET>Broadband network connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core I5-6600K / Core I7-4770 or AMD Ryzen 5 1400</CPU>
+      <RAM>12 GB</RAM>
+      <GPU>Nvidia GeForce GTX 1060 or AMD Radeon RX 580, 4GB</GPU>
+      <DX>DirectX 12</DX>
+      <OS>Windows 10 64-bit (latest update) or Windows 11 64-bit (latest update)</OS>
+      <STO>72 GB, Hi-rez assets cache: Up to 32GB</STO>
+      <Sound>DirectX Compatible</Sound>
+      <RES>60 fps, High settings</RES>
+      <NET>Broadband network connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Elden Ring">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-8400 or AMD Ryzen 3 3300X</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1060, 3 GB or AMD Radeon RX 580, 4 GB</GPU>
+      <DX>Version 12 (feature level 12.0)</DX>
+      <OS>Windows 10 (64-bit)</OS>
+      <STO>60 GB</STO>
+      <Sound>Windows-compatible audio device</Sound>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-8700K or AMD Ryzen 5 3600X</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX Vega 56, 8 GB</GPU>
+      <DX>Version 12 (feature level 12.0)</DX>
+      <OS>Windows 10 / 11 (64-bit)</OS>
+      <STO>60 GB</STO>
+      <Sound>Windows-compatible audio device</Sound>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Hogwarts Legacy">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-6600 (3.3 GHz) or AMD Ryzen 5 1400 (3.2 GHz)</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB</GPU>
+      <DX>Version 12</DX>
+      <OS>64-bit Windows 10</OS>
+      <STO>85 GB available space</STO>
+      <RES>SSD (Preferred), HDD (Supported), 720p/30 fps, Low Quality Settings</RES>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-8700 (3.2 GHz) or AMD Ryzen 5 3600 (3.6 GHz)</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770</GPU>
+      <DX>Version 12</DX>
+      <OS>64-bit Windows 10</OS>
+      <STO>85 GB available space (SSD)</STO>
+      <RES>SSD, 1080p/60 fps, High Quality Settings</RES>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Call of Duty: Warzone 2.0">
+    <minimum_system_requirements>
+      <CPU>Intel® Core™ i3-6100 / Core™ i5-2500K or AMD Ryzen™ 3 1200</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA® GeForce® GTX 960 or AMD Radeon™ RX 470 - DirectX 12.0 compatible system</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows® 10 64 Bit (latest update)</OS>
+      <STO>125 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel® Core™ i5-6600K / Core™ i7-4770 or AMD Ryzen™ 5 1400</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 580 - DirectX 12.0 compatible system</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows® 10 64 Bit (latest update) or Windows® 11 64 Bit (latest update)</OS>
+      <STO>125 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="God of War">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2500K / AMD FX-6300</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 280 (3GB)</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>85 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-6700K / AMD Ryzen 7 1700</CPU>
+      <RAM>12 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 (6GB) / AMD Radeon RX 580 (8GB)</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>85 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="FIFA 23">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5 6600k or AMD Ryzen 5 1600</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>100 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7 6700 or AMD Ryzen 7 2700X</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>100 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Dying Light 2 Stay Human">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-9100 / AMD Ryzen 3 2300X</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>Nvidia GeForce GTX 1050 Ti / AMD Radeon RX 560 4GB VRAM</GPU>
+      <OS>Windows 7, 64-bit</OS>
+      <STO>60 GB available space</STO>
+      <NET>1080p, 30fps, Low quality, Ray-tracing OFF</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>AMD / Intel CPU running at 3.6 GHz or higher: Intel Core i5-8600K / AMD Ryzen 5 3600X</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>Nvidia GeForce RTX 2060 6GB / AMD Radeon RX 5600 XT</GPU>
+      <OS>Windows 10, 64-bit</OS>
+      <STO>60 GB available space</STO>
+      <NET>1080p, 60fps, High quality, Ray-tracing OFF</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Starfield">
+    <minimum_system_requirements>
+      <CPU>AMD Ryzen 5 2600X, Intel Core i7-6800K</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>AMD Radeon RX 5700, NVIDIA GeForce GTX 1070 Ti</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 version 21H1 (10.0.19043) (64-bit)</OS>
+      <STO>125 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>AMD Ryzen 5 3600X, Intel Core i5-10600K</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>AMD Radeon RX 6800 XT, NVIDIA GeForce RTX 2080</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10/11 with updates (64-bit)</OS>
+      <STO>125 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Sons of the Forest">
+    <minimum_system_requirements>
+      <CPU>INTEL CORE I5-8400 or AMD RYZEN 3 3300X</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 3GB or AMD Radeon RX 570 4GB</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 10</OS>
+      <STO>20 GB available space (SSD Preferred)</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>INTEL CORE I7-8700K or AMD RYZEN 5 3600X</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce 1080Ti or AMD Radeon RX 5700 XT</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 10</OS>
+      <STO>20 GB available space (SSD Preferred)</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Diablo IV">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2500K or AMD FX-8350</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 660 or AMD Radeon R9 280</GPU>
+      <DX>Version 12</DX>
+      <OS>64-bit Windows 10 version 1909 or newer</OS>
+      <STO>SSD with 90 GB available space</STO>
+      <RES>1080p native resolution / 720p render resolution, low graphics settings, 30fps</RES>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-4770 or AMD FX-9370</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 or AMD Radeon RX 570</GPU>
+      <DX>Version 12</DX>
+      <OS>64-bit Windows 10 version 1909 or newer</OS>
+      <STO>SSD with 90 GB available space</STO>
+      <RES>1080p native resolution / 1080p render resolution, high graphics settings, 60fps</RES>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Marvel's Spider-Man: Miles Morales">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2300 or AMD FX-6300</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 960 or AMD Radeon RX 470</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>50 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-6700 or AMD Ryzen 5 2600</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1070 or AMD Radeon RX 5700</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>50 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="UNCHARTED: Legacy of Thieves Collection">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2500K or AMD equivalent</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 780 or AMD Radeon RX 570</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10</OS>
+      <STO>80 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-4770K or AMD equivalent</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 or AMD Radeon RX 580</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10</OS>
+      <STO>80 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Overwatch 2">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3 or AMD Phenom X3 8650</CPU>
+      <RAM>4 GB RAM (Windows Vista, 7, 8, 10)</RAM>
+      <GPU>NVIDIA GeForce GTX 460, ATI Radeon HD 4850, or Intel HD Graphics 4400</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7, 8, or 10 64-bit</OS>
+      <STO>50 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5 or AMD Phenom II X3 or better</CPU>
+      <RAM>6 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 660 or ATI Radeon HD 7950 or better</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7, 8, or 10 64-bit</OS>
+      <STO>50 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Lost Ark">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-7200U</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>Intel HD 620</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7/8/10 (64-bit)</OS>
+      <STO>25 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-7400</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 960</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 (64-bit)</OS>
+      <STO>25 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="LEGO Star Wars: The Skywalker Saga">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2400 or AMD Ryzen 3 1200</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>GeForce GTX 750 Ti or Radeon HD 7850</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>40 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-6600 or AMD Ryzen 3 3100</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>GeForce GTX 780 or Radeon R9 290</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>40 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="F1 22">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-2130 or AMD FX 4300 |For VR: Intel Core i5-9600k or AMD Ryzen 5 2600X</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GTX 1050 Ti or AMD RX 470 | For Ray Tracing: GeForce RTX 2060 or Radeon RX 6700 XT | For VR: NVIDIA GTX 1660 Ti or AMD RX 590</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit (Version 1909) | For Ray Tracing or VR: Windows 10 64-bit (Version 2004)</OS>
+      <STO>80 GB available space</STO>
+      <Sound>DirectX Compatible</Sound>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-9600K or AMD Ryzen 5 2600X</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GTX 1660 Ti or AMD RX 590 | For Ray Tracing: GeForce RTX 3070 or Radeon RX 6800 | For VR: NVIDIA RTX 2070 or AMD RX 6700 XT</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit (Version 1909) | For Ray Tracing or VR: Windows 10 64-bit (Version 2004)</OS>
+      <STO>80 GB available space</STO>
+      <Sound>DirectX Compatible</Sound>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Alan Wake 2">
+    <minimum_system_requirements>
+      <CPU>Intel i5-7600K or AMD equivalent</CPU>
+      <RAM>16 GB</RAM>
+      <GPU>GeForce RTX 2060 or Radeon RX 6600, 6 GB VRAM</GPU>
+      <OS>Windows 10/11 64-bit</OS>
+      <STO>90 GB SSD</STO>
+      <RES>1080p, 30 fps, Low graphics preset, DLSS/FSR2: Quality</RES>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>AMD Ryzen 7 3700X or Intel equivalent</CPU>
+      <RAM>16 GB</RAM>
+      <GPU>GeForce RTX 3070 or Radeon RX 6700 XT, 8 GB VRAM</GPU>
+      <OS>Windows 10/11 64-bit</OS>
+      <STO>90 GB SSD</STO>
+      <RES>1080p, 60 fps, Medium graphics preset, DLSS/FSR2: Performance</RES>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Marvel's Spider-Man Remastered">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-4160, 3.6 GHz or AMD equivalent</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GTX 950 or AMD Radeon RX 470</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>75 GB HDD</STO>
+      <RES>720p @ 30 fps, Very Low</RES>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-4670, 3.4 Ghz or AMD Ryzen 5 1600, 3.2 Ghz</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>NVIDIA GTX 1060 6GB or AMD Radeon RX 580 8GB</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>75 GB SSD</STO>
+      <RES>1080p @ 60 fps, Medium</RES>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Resident Evil 4 Remake">
+    <minimum_system_requirements>
+      <CPU>AMD Ryzen 3 1200 / Intel Core i5-7500</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 (64 bit)</OS>
+      <RES>Estimated performance (when set to Prioritize Performance): 1080p/60fps</RES>
+      <VRAM>4 GB</VRAM>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>AMD Ryzen 5 3600 / Intel Core i7 8700</CPU>
+      <RAM>16 GB RAM</RAM>
+      <GPU>AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 (64 bit)</OS>
+      <RES>Estimated performance (when set to Prioritize Graphics): 1440p/60fps</RES>
+      <VRAM>8 GB</VRAM>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="The Day Before">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-4430 / AMD FX-6300</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7/8/10 64-bit</OS>
+      <STO>20 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-6700K / AMD Ryzen 5 1600X</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1660 6GB / AMD Radeon RX 580 8GB</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7/8/10 64-bit</OS>
+      <STO>20 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Cyberpunk 2077">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-3570K / AMD FX-8310</CPU>
+      <RAM>8 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 780 3GB / AMD Radeon RX 470</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 7 64-bit</OS>
+      <STO>70 GB HDD (SSD recommended)</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-4790 / AMD Ryzen 3 3200G</CPU>
+      <RAM>12 GB RAM</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 6GB / AMD Radeon R9 Fury</GPU>
+      <DX>Version 12</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>70 GB SSD</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Grand Theft Auto V">
+    <minimum_system_requirements>
+      <CPU>Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz</CPU>
+      <RAM>4 GB</RAM>
+      <GPU>NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)</GPU>
+      <DX>Version 10</DX>
+      <OS>Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1</OS>
+      <STO>72 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GTX 660 2GB / AMD HD 7870 2GB</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1</OS>
+      <STO>72 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Fortnite">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-3225 or equivalent</CPU>
+      <RAM>4 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 660 or AMD Radeon HD 7870</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7/8/10 64-bit</OS>
+      <STO>100 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel i5-7300U or equivalent</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 960 or AMD Radeon R9 280X or equivalent DX11 GPU</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7/8/10 64-bit</OS>
+      <STO>100 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Red Dead Redemption 2">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2500K / AMD FX-6300</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB</GPU>
+      <OS>Windows 7 - Service Pack 1 (6.1.7601), 64-bit</OS>
+      <STO>150 GB available space</STO>
+      <Sound>DirectX compatible</Sound>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7-4770K / AMD Ryzen 5 1500X</CPU>
+      <RAM>12 GB</RAM>
+      <GPU>Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB</GPU>
+      <OS>Windows 10 - April 2018 Update (v1803), 64-bit</OS>
+      <STO>150 GB available space</STO>
+      <Sound>DirectX compatible</Sound>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Minecraft">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-3210 / AMD A8-7600 APU</CPU>
+      <RAM>4 GB</RAM>
+      <GPU>NVIDIA GeForce 400 Series / AMD Radeon HD 7000 series / Intel HD Graphics 4000</GPU>
+      <OS>Windows 10</OS>
+      <STO>4 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-4690 / AMD A10-7800 or equivalent</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce 700 Series or AMD Radeon Rx 200 Series or equivalent with OpenGL 4.5 support</GPU>
+      <OS>Windows 10</OS>
+      <STO>4 GB available space</STO>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Apex Legends">
+    <minimum_system_requirements>
+      <CPU>Intel i3-6300 3.8GHz / AMD FX-4350 4.2GHz Quad-Core Processor</CPU>
+      <RAM>6 GB</RAM>
+      <GPU>NVIDIA GeForce GT 640 / Radeon HD 7730</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7 64-bit</OS>
+      <STO>22 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel i5 3570K or equivalent</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 970 / AMD Radeon R9 290</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7 64-bit</OS>
+      <STO>22 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="League of Legends">
+    <minimum_system_requirements>
+      <CPU>3 GHz processor</CPU>
+      <RAM>2 GB RAM (Windows 7 and 8 users will want 4GB of RAM or more)</RAM>
+      <GPU>Shader version 2.0 capable video card</GPU>
+      <DX>Version 9.0c</DX>
+      <OS>Windows 7/8/10</OS>
+      <NET>Broadband Internet connection</NET>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>3 GHz processor</CPU>
+      <RAM>4 GB RAM</RAM>
+      <GPU>GeForce 8800 / ATI Radeon HD 2900 or equivalent video card</GPU>
+      <DX>Version 9.0c</DX>
+      <OS>Windows 7/8/10</OS>
+      <NET>Broadband Internet connection</NET>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="The Witcher 3: Wild Hunt">
+    <minimum_system_requirements>
+      <CPU>Intel Core i5-2500K 3.3GHz / AMD Phenom II X4 940</CPU>
+      <RAM>6 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 660 / AMD Radeon HD 7870</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10</OS>
+      <STO>35 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7 3770 3.4 GHz / AMD FX-8350 4 GHz</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 770 / AMD Radeon R9 290</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 7, 64-bit Windows 8 (8.1) or 64-bit Windows 10</OS>
+      <STO>35 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Destiny 2">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3-3250 / AMD FX-4350</CPU>
+      <RAM>6 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 660 / AMD Radeon HD 7850</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7 64-bit</OS>
+      <STO>105 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-2400 / AMD Ryzen R5 1600X</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 970 / AMD Radeon R9 390</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 10 64-bit</OS>
+      <STO>105 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Battlefield V">
+    <minimum_system_requirements>
+      <CPU>Core i5 6600K / AMD FX-8350</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 660 / AMD Radeon HD 7850</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 7, Windows 8.1, and Windows 10</OS>
+      <STO>50 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i7 4790 / AMD Ryzen 3 1300X</CPU>
+      <RAM>12 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB</GPU>
+      <DX>Version 11</DX>
+      <OS>64-bit Windows 10</OS>
+      <STO>50 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+  <Game name="Rainbow Six Siege">
+    <minimum_system_requirements>
+      <CPU>Intel Core i3 560 / AMD Phenom II X4 945</CPU>
+      <RAM>6 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 460 / AMD Radeon HD 5870</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7, Windows 8.1, Windows 10 (64-bit versions)</OS>
+      <STO>61 GB available space</STO>
+    </minimum_system_requirements>
+    <recommended_system_requirements>
+      <CPU>Intel Core i5-2500K / AMD FX-8120</CPU>
+      <RAM>8 GB</RAM>
+      <GPU>NVIDIA GeForce GTX 670 / AMD Radeon HD 7970</GPU>
+      <DX>Version 11</DX>
+      <OS>Windows 7 SP1, Windows 8.1, Windows 10 (64-bit versions)</OS>
+      <STO>61 GB available space</STO>
+    </recommended_system_requirements>
+  </Game>
+</GameData>
