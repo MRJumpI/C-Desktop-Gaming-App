@@ -40,7 +40,8 @@ Rediscover classic and timeless games that have left a lasting impact on the gam
 Ensure smooth gameplay by checking the system requirements for each game. Find out if your device meets the necessary specifications to run your favorite titles.
 
 ## Screenshots 📸
-!["ScreenShot1"](./GameImages/Landing.jifi)
+![Dashboard Screenshot](GameImages/DashBoard.jifi)
+
 
 ## About 🏠
 Play Quill is the culmination of my first big C# project, combining my passion for gaming with my programming skills. Built from scratch and powered by various APIs, including the RAWG API, this application aims to provide a seamless and immersive gaming experience for users.
