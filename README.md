@@ -1,9 +1,9 @@
 # Play Quill
 
-## Overview
+## Overview 🗒️
 Play Quill is a desktop application built using C# that serves as a comprehensive platform for gaming enthusiasts. Whether you're interested in PC, mobile, console, or other gaming platforms, Play Quill provides a wealth of information about upcoming games, favorite titles, and classic gems.
 
-## Features
+## Features ✨
 - **Game Categories**: Explore games across different categories such as news, Steam games, simple games, esports, and epic games.
 - **Search Functionality**: Easily search for specific games to find detailed information.
 - **Top Ten Games**: Stay updated with the latest trending games and discover what's popular in the gaming world.
@@ -11,7 +11,7 @@ Play Quill is a desktop application built using C# that serves as a comprehensiv
 - **Integration with RAWG API**: Utilizes the RAWG API to fetch comprehensive data about games, including release dates, genres, ratings, and more.
 > Some More that You can Explorer 😶🤖😗
 
-## Game Categories
+## Game Categories 🗃️
 ### 1. News
 Stay informed about the latest developments, announcements, and updates in the gaming industry.
 
@@ -39,10 +39,10 @@ Rediscover classic and timeless games that have left a lasting impact on the gam
 ## System Requirements
 Ensure smooth gameplay by checking the system requirements for each game. Find out if your device meets the necessary specifications to run your favorite titles.
 
-## Screenshots
-!["ScreenShot1"](blob:https://web.whatsapp.com/2b552f56-c674-47de-932c-6cbf75ad00ca)
+## Screenshots 📸
+!["ScreenShot1"](./GameImages/Landing.jifi)
 
-## About
+## About 🏠
 Play Quill is the culmination of my first big C# project, combining my passion for gaming with my programming skills. Built from scratch and powered by various APIs, including the RAWG API, this application aims to provide a seamless and immersive gaming experience for users.
 
 ---
