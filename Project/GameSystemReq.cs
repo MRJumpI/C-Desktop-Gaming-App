@@ -12,7 +12,7 @@ using System.Xml.Linq;
 
 namespace Project
 {
-    
+
 
     public partial class GameSystemReq : Form
     {
@@ -26,19 +26,20 @@ namespace Project
         private void GameSystemReq_Load(object sender, EventArgs e)
         {
             LoadXmlData();
-       
+
         }
         private void setGameInfo(Dictionary<string, object> searchGameData)
         {
-            Name.Text= (string) searchGameData["Name"];
+            Name.Text = (string)searchGameData["Name"];
             releaseDate.Text = (string)searchGameData["Releaseddate"];
             platforms.Text = (string)searchGameData["Platforms"];
             stores.Text = (string)searchGameData["stores"];
-            bacgroundImage.Text = "<img src=\"" + (string)searchGameData["BackgroundImage"] +"\" alt=\"imagGame\" width=200px height=200px/>";
+            bacgroundImage.Text = "<img src=\"" + (string)searchGameData["BackgroundImage"] + "\" alt=\"imagGame\" width=200px height=200px/>";
             string[] images = (string[])searchGameData["ScreenShots"];
             int index = 0;
-            foreach (string image in images) { 
-                switch(index)
+            foreach (string image in images)
+            {
+                switch (index)
                 {
                     case 0:
                         screenshot1.Text = "<img src=\"" + image + "\" alt=\"imagGame\" width=100px height=100px/>";
@@ -64,7 +65,7 @@ namespace Project
         private void LoadXmlData()
         {
             // Replace 'your_xml_file_path' with the actual path to your XML file
-            string xmlFilePath = "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\GameSysReqData.xml";
+            string xmlFilePath = "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\GameSysReqData.xml";
 
             try
             {
@@ -148,5 +149,9 @@ namespace Project
             }
         }
 
+        private void SystemReqMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
