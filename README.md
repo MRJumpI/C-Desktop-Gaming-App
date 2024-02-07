@@ -40,15 +40,15 @@ Rediscover classic and timeless games that have left a lasting impact on the gam
 Ensure smooth gameplay by checking the system requirements for each game. Find out if your device meets the necessary specifications to run your favorite titles.
 
 ## Screenshots 📸
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/d5aeb641-370b-49ac-8a6d-80c1d1f125af" alt="Landing" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/c2b821d0-d8e9-405a-97ce-061c9259ab5c" alt="Home" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/e2f0b393-6b58-4448-8ebc-4a2c14dee7aa" alt="GameSystemRequirement" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/659778a2-1b7c-425b-be12-0e78e0492c1e" alt="GameNews" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/cd56627c-85a9-407a-828d-eec5c66ababa" alt="GameList" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/2d9abe90-69ef-448f-9201-f16b24318853" alt="Game TodoList" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/71114a65-436d-4d90-8b75-91b893eea3d7" alt="DashBoard" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/0bdbb25e-3de2-4b13-a832-e1b9dce24927" alt="ScreenShot2" style="width: 200px; height: 200px;">
-<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/9a3d27bf-6eed-4805-a296-9d8481688ea3" alt="ScreenShot1" style="width: 200px; height: 200px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/d5aeb641-370b-49ac-8a6d-80c1d1f125af" alt="Landing" style="width: 300px; height: 300px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/c2b821d0-d8e9-405a-97ce-061c9259ab5c" alt="Home" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/e2f0b393-6b58-4448-8ebc-4a2c14dee7aa" alt="GameSystemRequirement" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/659778a2-1b7c-425b-be12-0e78e0492c1e" alt="GameNews" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/cd56627c-85a9-407a-828d-eec5c66ababa" alt="GameList" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/2d9abe90-69ef-448f-9201-f16b24318853" alt="Game TodoList" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/71114a65-436d-4d90-8b75-91b893eea3d7" alt="DashBoard" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/0bdbb25e-3de2-4b13-a832-e1b9dce24927" alt="ScreenShot2" style="width: 350px; height: 350px;">
+<img src="https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/9a3d27bf-6eed-4805-a296-9d8481688ea3" alt="ScreenShot1" style="width: 350px; height: 350px;">
 
 
 
