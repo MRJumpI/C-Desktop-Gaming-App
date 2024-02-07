@@ -57,4 +57,4 @@ Play Quill is the culmination of my first big C# project, combining my passion f
 
 ---
 
-*Disclaimer: This application is for educational and informational purposes only. All game data and information are sourced from external APIs and may be subject to change.*
+*Disclaimer 🔔: This application is for educational and informational purposes only. All game data and information are sourced from external APIs and may be subject to change.*
