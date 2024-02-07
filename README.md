@@ -40,7 +40,8 @@ Rediscover classic and timeless games that have left a lasting impact on the gam
 Ensure smooth gameplay by checking the system requirements for each game. Find out if your device meets the necessary specifications to run your favorite titles.
 
 ## Screenshots 📸
-![Dashboard Screenshot](GameImages/DashBoard.jifi)
+![digital-art-1 2](https://github.com/MRJumpI/C-Desktop-Gaming-App/assets/111625687/9e28edc7-f87c-4410-972e-6009f213a36a)
+
 
 
 ## About 🏠
