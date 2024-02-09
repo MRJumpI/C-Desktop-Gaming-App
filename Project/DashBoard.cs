@@ -24,9 +24,7 @@ namespace Project
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
-            form.Show();
-            this.Close();
+            Application.Exit();
         }
     }
 }

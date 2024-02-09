@@ -1,4 +1,64 @@
-﻿<root>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -57,4 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="contentEpic.Text" xml:space="preserve">
+    <value>Tendershoot's early '00s Internet simulator Hypnospace Outlaw feels ripped from modern headlines in the same uncanny way as a thrilling episode of Black Mirror.
+Content: It's clear that we all live in interesting times. At the crossroads between an analogue past and our inevitable digital future, every tradition and function in life is placed under a microscope in the name of efficiency, cost-cutting, and progress. That sure makes it hard for storytellers to craft a future that stands the test of time. Look at &lt;em&gt;Black Mirror&lt;/em&gt;, Charlie Brooker's harrowing anthology that has unfolded into an uncanny checklist of future events. After reading headlines about companies wanting their workers to clock in as they sleep, it seems that dream computing is all the rage, and video games have their own little shard of &lt;em&gt;Black Mirror&lt;/em&gt;. You too can see what seems like the fast-approaching future by taking a trip through 2019's &lt;a href="/p/hypnospace-outlaw" target="_self"&gt;&lt;em&gt;Hypnospace Outlaw&lt;/em&gt;&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+Through the technological magic of a headband not unlike those making headlines today, denizens of &lt;em&gt;Hypnospace Outlaw's&lt;/em&gt; alternate history spend their nights surfing websites, posting comments, and digging into the hip sounds of music sensation Fre3zer. Much like how the early Internet was much more exploratory and freeing than today's cloistered social media landscape, Hypnospace has many nooks and crannies that are fun to explore, even if you ignore the game's narrative. It certainly helps if you have faint memories of the late '90s/early '00s era of the internet, but even someone without any experience with AOL or dial-up will find some charm in the primitive past on display here.&lt;br&gt;
+&lt;br&gt;
+When you do get around to progressing through &lt;em&gt;Hypnospace Outlaw's&lt;/em&gt; plot, you play as a web detective tasked with keeping outlaws out of Hypnospace. See someone taking advantage of copyright without permission? Blast their own personal page out of existence and watch as you're badmouthed the next night for doing your job. As you progress through the game, you'll follow along with the in-game stories of Hypnospace users living their lives as the days turn to months.&lt;br&gt;
+&lt;img alt="Hypnospace Outlaw Is Gaming S Very Own Shard Of Black Mirror" src="https://cdn2.unrealengine.com/hypnospace-outlaw-is-gaming-s-very-own-shard-of-black-mirror-1920x1080-de335018e711.jpg" style="height:auto; width:auto"&gt;&lt;br&gt;
+That evolution between in-game time periods does a lot of work toward making the world of &lt;em&gt;Hypnospace&lt;/em&gt; feel like a living, breathing place that's humming in the background even when you're not there. This isn't an easy feat, and developer Tendershoot managed it with the same basic setup that kids used to trade cheat codes on Geocities.&lt;br&gt;
+&lt;br&gt;
+That focus on personal stories lets &lt;em&gt;Hypnospace Outlaw &lt;/em&gt;make the same turn as many of the best installments of Black Mirror. This focus on '90s technology and other nostalgic trappings is a familiar environment that draws you in and makes what the game is trying to say go down smoother. The social interaction between users in Hypnospace is much more modern than you might expect if you remember the limited days of instant messenger. The developer has some things to say about early adoption and why the web shifted to a more business-like structure in the years that followed this neon-plastered Wild West.&lt;br&gt;
+&lt;br&gt;
+Your interpretation may vary, and the whole game is definitely enjoyable even without the moral at the end of the story. Still, by the end of &lt;em&gt;Outlaw&lt;/em&gt;, you'll certainly think twice about strapping on any similar dream computing headbands as they hit the market.&lt;br&gt;
+&lt;br&gt;
+&lt;a href="/p/hypnospace-outlaw" target="_self"&gt;Hypnospace Outlaw&lt;/a&gt; is available on the Epic Games Store.</value>
+  </data>
+  <data name="contentMMO.Text" xml:space="preserve">
+    <value>Tendershoot's early '00s Internet simulator Hypnospace Outlaw feels ripped from modern headlines in the same uncanny way as a thrilling episode of Black Mirror.
+Content: It's clear that we all live in interesting times. At the crossroads between an analogue past and our inevitable digital future, every tradition and function in life is placed under a microscope in the name of efficiency, cost-cutting, and progress. That sure makes it hard for storytellers to craft a future that stands the test of time. Look at &lt;em&gt;Black Mirror&lt;/em&gt;, Charlie Brooker's harrowing anthology that has unfolded into an uncanny checklist of future events. After reading headlines about companies wanting their workers to clock in as they sleep, it seems that dream computing is all the rage, and video games have their own little shard of &lt;em&gt;Black Mirror&lt;/em&gt;. You too can see what seems like the fast-approaching future by taking a trip through 2019's &lt;a href="/p/hypnospace-outlaw" target="_self"&gt;&lt;em&gt;Hypnospace Outlaw&lt;/em&gt;&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+Through the technological magic of a headband not unlike those making headlines today, denizens of &lt;em&gt;Hypnospace Outlaw's&lt;/em&gt; alternate history spend their nights surfing websites, posting comments, and digging into the hip sounds of music sensation Fre3zer. Much like how the early Internet was much more exploratory and freeing than today's cloistered social media landscape, Hypnospace has many nooks and crannies that are fun to explore, even if you ignore the game's narrative. It certainly helps if you have faint memories of the late '90s/early '00s era of the internet, but even someone without any experience with AOL or dial-up will find some charm in the primitive past on display here.&lt;br&gt;
+&lt;br&gt;
+When you do get around to progressing through &lt;em&gt;Hypnospace Outlaw's&lt;/em&gt; plot, you play as a web detective tasked with keeping outlaws out of Hypnospace. See someone taking advantage of copyright without permission? Blast their own personal page out of existence and watch as you're badmouthed the next night for doing your job. As you progress through the game, you'll follow along with the in-game stories of Hypnospace users living their lives as the days turn to months.&lt;br&gt;
+&lt;img alt="Hypnospace Outlaw Is Gaming S Very Own Shard Of Black Mirror" src="https://cdn2.unrealengine.com/hypnospace-outlaw-is-gaming-s-very-own-shard-of-black-mirror-1920x1080-de335018e711.jpg" style="height:auto; width:auto"&gt;&lt;br&gt;
+That evolution between in-game time periods does a lot of work toward making the world of &lt;em&gt;Hypnospace&lt;/em&gt; feel like a living, breathing place that's humming in the background even when you're not there. This isn't an easy feat, and developer Tendershoot managed it with the same basic setup that kids used to trade cheat codes on Geocities.&lt;br&gt;
+&lt;br&gt;
+That focus on personal stories lets &lt;em&gt;Hypnospace Outlaw &lt;/em&gt;make the same turn as many of the best installments of Black Mirror. This focus on '90s technology and other nostalgic trappings is a familiar environment that draws you in and makes what the game is trying to say go down smoother. The social interaction between users in Hypnospace is much more modern than you might expect if you remember the limited days of instant messenger. The developer has some things to say about early adoption and why the web shifted to a more business-like structure in the years that followed this neon-plastered Wild West.&lt;br&gt;
+&lt;br&gt;
+Your interpretation may vary, and the whole game is definitely enjoyable even without the moral at the end of the story. Still, by the end of &lt;em&gt;Outlaw&lt;/em&gt;, you'll certainly think twice about strapping on any similar dream computing headbands as they hit the market.&lt;br&gt;
+&lt;br&gt;
+&lt;a href="/p/hypnospace-outlaw" target="_self"&gt;Hypnospace Outlaw&lt;/a&gt; is available on the Epic Games Store.</value>
+  </data>
 </root>

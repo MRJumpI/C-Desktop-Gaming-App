@@ -24,8 +24,8 @@ namespace Project
 
         private void FrmMainWindow_Load(object sender, EventArgs e)
         {
-            int w = Screen.PrimaryScreen.Bounds.Width;
-            int h = Screen.PrimaryScreen.Bounds.Height;
+            int w = 1600;
+            int h = 900;
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
             loadform(new Home());
@@ -70,10 +70,8 @@ namespace Project
                 homePanel.Width = 150;
                 gamePanel.Width = 150;
                 sysreqPanel.Width = 150;
-                esportPanel.Width = 150;
                 logoutPanel.Width = 150;
                 btnDashboard.Width = 139;
-                btnEsport.Width = 139;
                 btnGame.Width = 139;
                 btnHome.Width = 139;
                 btnLogout.Width = 139;
@@ -98,14 +96,12 @@ namespace Project
                         homePanel.Width -= 15;
                         gamePanel.Width -= 15;
                         sysreqPanel.Width -= 15;
-                        esportPanel.Width -= 15;
                         logoutPanel.Width -= 15;
                     }
 
                     if (btnDashboard.Width >= 50)
                     {
                         btnDashboard.Width -= 15;
-                        btnEsport.Width -= 15;
                         btnGame.Width -= 15;
                         btnHome.Width -= 15;
                         btnLogout.Width -= 15;
@@ -132,88 +128,81 @@ namespace Project
             switch (pressedID)
             {
                 case 1:
-                    SetActiveButton(btnDashboard, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_dashboard.png", label11);
+                    SetActiveButton(btnDashboard, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\black_dashboard.png", label11);
                     break;
                 case 2:
-                    SetActiveButton(btnHome, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\home.png", label10);
+                    SetActiveButton(btnHome, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\home.png", label10);
                     break;
                 case 3:
-                    SetActiveButton(btnGame, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_games.png", label9);
+                    SetActiveButton(btnGame, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\black_games.png", label9);
                     break;
                 case 4:
-                    SetActiveButton(btnSysReq, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\blac_gamesystemReq.png", label8);
-                    break;
-                case 5:
-                    SetActiveButton(btnEsport, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_esport.png", label6);
+                    SetActiveButton(btnSysReq, Color.FromArgb(224, 224, 224), Color.Black, Color.FromArgb(224, 224, 224), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\blac_gamesystemReq.png", label8);
                     break;
                 // Add more cases as needed
                 default:
                     break;
             }
-            miniPanelHandel();
+
+            hideMiniPanel();
         }
-     
 
-            public void ResetAllButtons()
-            {
-                //label6,8,9,10,11
-                unActiveInGame();
-                // Reset all buttons to their default colors and images
-                SetActiveButton(btnDashboard, Color.Transparent, Color.White, Color.FromArgb(31, 31, 31), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_dashboard.png", label11);
-                SetActiveButton(btnHome, Color.Transparent, Color.White, Color.FromArgb(31,31,31), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\home-icon-silhouette-white.png", label10);
-                SetActiveButton(btnGame, Color.Transparent, Color.White, Color.FromArgb(31,31,31), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_games.png", label9);
-                SetActiveButton(btnSysReq, Color.Transparent, Color.White, Color.FromArgb(31,31,31), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_gamesystemReq.png", label8);
-                SetActiveButton(btnEsport, Color.Transparent, Color.White, Color.FromArgb(31,31,31), "C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_esport.png",label6);
-                // Add more buttons as needed
-            }
 
-            public void SetActiveButton(Guna2Button button, Color fillColor, Color foreColor ,Color hoverFillColor, string imagePath,Label L)
+
+        public void ResetAllButtons()
+        {
+            //label6,8,9,10,11
+            unActiveInGame();
+            // Reset all buttons to their default colors and images
+            SetActiveButton(btnDashboard, Color.Transparent, Color.White, Color.FromArgb(31, 31, 31), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_dashboard.png", label11);
+            SetActiveButton(btnHome, Color.Transparent, Color.White, Color.FromArgb(31, 31, 31), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\home-icon-silhouette-white.png", label10);
+            SetActiveButton(btnGame, Color.Transparent, Color.White, Color.FromArgb(31, 31, 31), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_games.png", label9);
+            SetActiveButton(btnSysReq, Color.Transparent, Color.White, Color.FromArgb(31, 31, 31), "C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_gamesystemReq.png", label8);
+            // Add more buttons as needed
+        }
+
+        public void SetActiveButton(Guna2Button button, Color fillColor, Color foreColor, Color hoverFillColor, string imagePath, Label L)
+        {
+            // Set the background color and hover state color for the given button
+            button.FillColor = fillColor;
+            button.HoverState.FillColor = hoverFillColor;
+            L.BackColor = fillColor;
+            L.ForeColor = foreColor;
+            // Set the button image from the provided file path
+            if (!string.IsNullOrEmpty(imagePath))
             {
-                // Set the background color and hover state color for the given button
-                button.FillColor = fillColor;
-                button.HoverState.FillColor = hoverFillColor;
-                L.BackColor = fillColor;
-                L.ForeColor = foreColor;
-                // Set the button image from the provided file path
-                if (!string.IsNullOrEmpty(imagePath))
-                {
-                    button.Image = Image.FromFile(imagePath);
-                }
+                button.Image = Image.FromFile(imagePath);
             }
+        }
 
         // Add more buttons as needed
 
 
         public void unActiveInGame()
         {
-                btnList.FillColor = Color.Transparent;
-                btnList.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+            btnList.FillColor = Color.Transparent;
+            btnList.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnNews.FillColor = Color.Transparent;
-                btnNews.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+            btnNews.FillColor = Color.Transparent;
+            btnNews.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnTodo.FillColor = Color.Transparent;
-                btnTodo.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+            btnTodo.FillColor = Color.Transparent;
+            btnTodo.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnPlay.FillColor = Color.Transparent;
-                btnPlay.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+            btnList.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_gameList.png");
 
-                btnList.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_gameList.png");
+            btnTodo.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_todoList.png");
+            btnNews.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_GameNews.png");
 
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_todoList.png");
-                btnPlay.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_playGame.png");
-                btnNews.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_GameNews.png");
-                
-                btnList.ForeColor= Color.White;
-                btnNews.ForeColor = Color.White;
-                btnTodo.ForeColor = Color.White;
-                btnPlay.ForeColor = Color.White;
-
+            btnList.ForeColor = Color.White;
+            btnNews.ForeColor = Color.White;
+            btnTodo.ForeColor = Color.White;
+       
         }
 
         public void changActiveInGame(int gameBtnID)
         {
-            
+            hideMiniPanel();
             if (gameBtnID == 0)
             {
                 btnList.FillColor = Color.FromArgb(224, 224, 224);
@@ -225,20 +214,16 @@ namespace Project
                 btnTodo.FillColor = Color.Transparent;
                 btnTodo.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnPlay.FillColor = Color.Transparent;
-                btnPlay.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnList.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_gameList.png");
+                btnList.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\black_gameList.png");
 
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_todoList.png");
-                btnPlay.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_playGame.png");
-                btnNews.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_GameNews.png");
+                btnTodo.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_todoList.png");
+                btnNews.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_GameNews.png");
 
                 btnList.ForeColor = Color.Black;
                 btnNews.ForeColor = Color.White;
                 btnTodo.ForeColor = Color.White;
-                btnPlay.ForeColor = Color.White;
-
+              
 
             }
             else if (gameBtnID == 1)
@@ -252,20 +237,16 @@ namespace Project
                 btnTodo.FillColor = Color.Transparent;
                 btnTodo.HoverState.FillColor = Color.FromArgb(31, 31, 31);
 
-                btnPlay.FillColor = Color.Transparent;
-                btnPlay.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+               
+                btnList.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_gameList.png");
 
-                btnList.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_gameList.png");
-
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_todoList.png");
-                btnPlay.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_playGame.png");
-                btnNews.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_GameNews.png");
+                btnTodo.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_todoList.png");
+                //btnNews.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Project\\Resources\\icon\\black_GameNews.png");
 
                 btnList.ForeColor = Color.White;
                 btnNews.ForeColor = Color.Black;
                 btnTodo.ForeColor = Color.White;
-                btnPlay.ForeColor = Color.White;
-
+               
 
             }
             else if (gameBtnID == 2)
@@ -277,63 +258,39 @@ namespace Project
                 btnNews.HoverState.FillColor = Color.FromArgb(31, 31, 31);
                 btnList.FillColor = Color.Transparent;
                 btnList.HoverState.FillColor = Color.FromArgb(31, 31, 31);
-                btnPlay.FillColor = Color.Transparent;
-                btnPlay.HoverState.FillColor = Color.FromArgb(31, 31, 31);
+               
+                btnList.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_gameList.png");
+                btnTodo.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\todoList.png");
 
-                btnList.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_gameList.png");
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\todoList.png");
-
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_playGame.png");
-                btnNews.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_GameNews.png");
+                btnNews.Image = Image.FromFile("C:\\Users\\usman\\source\\repos\\C-Desktop-Gaming-App\\Project\\Resources\\icon\\white_GameNews.png");
 
                 btnList.ForeColor = Color.White;
                 btnNews.ForeColor = Color.White;
                 btnTodo.ForeColor = Color.Black;
-                btnPlay.ForeColor = Color.White;
-
+           
             }
             else
             {
-                btnPlay.FillColor = Color.FromArgb(224, 224, 224);
-                btnPlay.HoverState.FillColor = Color.FromArgb(224, 224, 224);
-
-                btnNews.FillColor = Color.Transparent;
-                btnNews.HoverState.FillColor = Color.FromArgb(31, 31, 31);
-                btnTodo.FillColor = Color.Transparent;
-                btnTodo.HoverState.FillColor = Color.FromArgb(31, 31, 31);
-                btnList.FillColor = Color.Transparent;
-                btnList.HoverState.FillColor = Color.FromArgb(31, 31, 31);
-
-                btnList.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_gameList.png");
-
-                btnTodo.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_todoList.png");
-                btnPlay.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\black_playGame.png");
-                btnNews.Image = Image.FromFile("C:\\Users\\musma\\source\\repos\\Project\\Project\\Resources\\icon\\white_GameNews.png");
-                btnList.ForeColor = Color.White;
-                btnNews.ForeColor = Color.White;
-                btnTodo.ForeColor = Color.White;
-                btnPlay.ForeColor = Color.Black;
-
+                
+               
             }
-            miniPanelHandel();
         }
         private void btnMenu_Click(object sender, EventArgs e)
         {
             menuTransition.Start();
         }
 
-        public void miniPanelHandel() {
-           
-                subMenu.Visible = false;
-                
-           
+        public void hideMiniPanel()
+        {
+            subMenu.Visible = false;
         }
+
         private void btnGame_Click_1(object sender, EventArgs e)
         {
             if (subMenu.Visible == true)
             {
                 subMenu.Visible = false;
-                
+                beautifulTransition.HideSync(subMenu);
             }
             else
             {
@@ -347,6 +304,7 @@ namespace Project
                 this.defaultpanel.Controls.RemoveAt(0);
             Form f = Form as Form;
             f.TopLevel = false;
+
             f.Dock = DockStyle.Fill;
             this.defaultpanel.Controls.Add(f);
             this.defaultpanel.Tag = f;
@@ -356,14 +314,14 @@ namespace Project
         {
             ChangeActive(2);
             loadform(new Home());
-            
+
         }
         private void btnDashboard_Click(object sender, EventArgs e)
         {
 
             ChangeActive(1);
             loadform(new DashBoard());
-          
+
         }
 
         private void btnList_Click(object sender, EventArgs e)
@@ -404,8 +362,7 @@ namespace Project
 
         private void btnEsport_Click(object sender, EventArgs e)
         {
-            ChangeActive(5);
-            loadform(new Esport());
+     
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -426,6 +383,11 @@ namespace Project
         }
 
         private void sidebarMenuPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void subMenu_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -35,402 +35,397 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnLogin = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            label2 = new Label();
+            label3 = new Label();
+            label1 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            btnLogin = new Guna.UI2.WinForms.Guna2GradientButton();
+            label7 = new Label();
+            label8 = new Label();
+            guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            label9 = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            SuspendLayout();
             // 
             // guna2Button1
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.CustomizableEdges = customizableEdges1;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Gainsboro;
-            this.guna2Button1.Font = new System.Drawing.Font("Tw Cen MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.Firebrick;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(1203, 22);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2Button1.Size = new System.Drawing.Size(116, 49);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "E X I T";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            guna2Button1.Animated = true;
+            guna2Button1.BackColor = Color.Transparent;
+            guna2Button1.BorderColor = Color.Transparent;
+            guna2Button1.BorderRadius = 15;
+            guna2Button1.CustomizableEdges = customizableEdges1;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.FillColor = Color.Gainsboro;
+            guna2Button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2Button1.ForeColor = Color.Firebrick;
+            guna2Button1.HoverState.FillColor = Color.FromArgb(64, 64, 64);
+            guna2Button1.HoverState.ForeColor = Color.White;
+            guna2Button1.ImageSize = new Size(30, 30);
+            guna2Button1.Location = new Point(1203, 22);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.PressedColor = Color.Transparent;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button1.Size = new Size(116, 49);
+            guna2Button1.TabIndex = 2;
+            guna2Button1.Text = "E X I T";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2HtmlLabel1
             // 
-            this.guna2HtmlLabel1.AutoSize = false;
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Tempus Sans ITC", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(146, 226);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(96, 42);
-            this.guna2HtmlLabel1.TabIndex = 4;
-            this.guna2HtmlLabel1.Text = "Hello   There Stranger!";
-            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            guna2HtmlLabel1.AutoSize = false;
+            guna2HtmlLabel1.BackColor = Color.Transparent;
+            guna2HtmlLabel1.Font = new Font("Segoe Print", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel1.Location = new Point(146, 226);
+            guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            guna2HtmlLabel1.Size = new Size(96, 42);
+            guna2HtmlLabel1.TabIndex = 4;
+            guna2HtmlLabel1.Text = "Hello   There Stranger!";
+            guna2HtmlLabel1.TextAlignment = ContentAlignment.TopCenter;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Tempus Sans ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Firebrick;
-            this.label2.Location = new System.Drawing.Point(266, 169);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 27);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "PLAY\'QUILL";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Lucida Sans Unicode", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Firebrick;
+            label2.Location = new Point(266, 169);
+            label2.Name = "label2";
+            label2.Size = new Size(136, 25);
+            label2.TabIndex = 6;
+            label2.Text = "PLAY'QUILL";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(406, 177);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(535, 19);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Combines \"play\" and \"quill,\" suggesting a creative and literary exploration of ga" +
-    "mes.";
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Italic, GraphicsUnit.Point);
+            label3.ForeColor = SystemColors.InactiveCaptionText;
+            label3.Location = new Point(406, 179);
+            label3.Name = "label3";
+            label3.Size = new Size(448, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Combines \"play\" and \"quill,\" suggesting a creative and literary exploration of games.";
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(343, 209);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(549, 96);
-            this.label1.TabIndex = 8;
-            this.label1.Text = resources.GetString("label1.Text");
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(343, 214);
+            label1.Name = "label1";
+            label1.Size = new Size(549, 70);
+            label1.TabIndex = 8;
+            label1.Text = resources.GetString("label1.Text");
+            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Tempus Sans ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Firebrick;
-            this.label4.Location = new System.Drawing.Point(364, 306);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 19);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "PLAY\'QUILL ;";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.Firebrick;
+            label4.Location = new Point(364, 306);
+            label4.Name = "label4";
+            label4.Size = new Size(111, 18);
+            label4.TabIndex = 9;
+            label4.Text = "PLAY'QUILL ;";
             // 
             // label5
             // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(343, 329);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(511, 64);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "is \'SOLUTION\' for you as it\'s provide you all those feature and some more ❤️";
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(343, 329);
+            label5.Name = "label5";
+            label5.Size = new Size(511, 42);
+            label5.TabIndex = 10;
+            label5.Text = "is 'SOLUTION' for you as it's provide you all those feature and some more ❤️";
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(209, 306);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 27);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Well Don\'t Worry";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(209, 306);
+            label6.Name = "label6";
+            label6.Size = new Size(149, 27);
+            label6.TabIndex = 11;
+            label6.Text = "Well Don't Worry";
+            label6.TextAlign = ContentAlignment.TopCenter;
             // 
             // btnLogin
             // 
-            this.btnLogin.Animated = true;
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogin.BorderRadius = 10;
-            this.btnLogin.BorderThickness = 2;
-            this.btnLogin.CustomizableEdges = customizableEdges3;
-            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogin.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogin.FillColor = System.Drawing.Color.Transparent;
-            this.btnLogin.FillColor2 = System.Drawing.Color.Transparent;
-            this.btnLogin.Font = new System.Drawing.Font("Tw Cen MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.btnLogin.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnLogin.HoverState.FillColor2 = System.Drawing.Color.Black;
-            this.btnLogin.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnLogin.Image = global::Project.Properties.Resources.login1;
-            this.btnLogin.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLogin.ImageOffset = new System.Drawing.Point(10, 0);
-            this.btnLogin.Location = new System.Drawing.Point(489, 496);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.btnLogin.ShadowDecoration.BorderRadius = 10;
-            this.btnLogin.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.btnLogin.Size = new System.Drawing.Size(154, 42);
-            this.btnLogin.TabIndex = 13;
-            this.btnLogin.Text = "LOG IN";
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            btnLogin.Animated = true;
+            btnLogin.BackColor = Color.Transparent;
+            btnLogin.BorderRadius = 10;
+            btnLogin.BorderThickness = 2;
+            btnLogin.CustomizableEdges = customizableEdges3;
+            btnLogin.DisabledState.BorderColor = Color.DarkGray;
+            btnLogin.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnLogin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnLogin.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnLogin.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnLogin.FillColor = Color.Transparent;
+            btnLogin.FillColor2 = Color.Transparent;
+            btnLogin.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLogin.ForeColor = Color.Black;
+            btnLogin.HoverState.BorderColor = Color.Transparent;
+            btnLogin.HoverState.FillColor = Color.FromArgb(64, 64, 64);
+            btnLogin.HoverState.FillColor2 = Color.Black;
+            btnLogin.HoverState.ForeColor = Color.White;
+            btnLogin.HoverState.Image = (Image)resources.GetObject("resource.Image");
+            btnLogin.Image = Properties.Resources.login1;
+            btnLogin.ImageAlign = HorizontalAlignment.Left;
+            btnLogin.ImageOffset = new Point(10, 0);
+            btnLogin.Location = new Point(489, 496);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Padding = new Padding(15, 0, 0, 0);
+            btnLogin.ShadowDecoration.BorderRadius = 10;
+            btnLogin.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnLogin.Size = new Size(154, 42);
+            btnLogin.TabIndex = 13;
+            btnLogin.Text = "LOG IN";
+            btnLogin.Click += btnLogin_Click;
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Image = global::Project.Properties.Resources.wizard;
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label7.Location = new System.Drawing.Point(146, 423);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(379, 53);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "So what are you waiting for \"GAME\"!!";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.Image = Properties.Resources.wizard;
+            label7.ImageAlign = ContentAlignment.TopRight;
+            label7.Location = new Point(146, 423);
+            label7.Name = "label7";
+            label7.Size = new Size(432, 53);
+            label7.TabIndex = 14;
+            label7.Text = "So what are you waiting for \"GAMER\"!!";
+            label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(216, 476);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(267, 23);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "get into the App and Start Explorering!!";
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label8.Location = new Point(216, 476);
+            label8.Name = "label8";
+            label8.Size = new Size(267, 23);
+            label8.TabIndex = 15;
+            label8.Text = "get into the App and Start Explorering!!";
             // 
             // guna2GradientButton1
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2GradientButton1.BorderRadius = 10;
-            this.guna2GradientButton1.BorderThickness = 2;
-            this.guna2GradientButton1.CustomizableEdges = customizableEdges5;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Tw Cen MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.HoverState.FillColor = System.Drawing.Color.Silver;
-            this.guna2GradientButton1.HoverState.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
-            this.guna2GradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton1.Image")));
-            this.guna2GradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2GradientButton1.ImageOffset = new System.Drawing.Point(10, 0);
-            this.guna2GradientButton1.Location = new System.Drawing.Point(823, 654);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.guna2GradientButton1.ShadowDecoration.BorderRadius = 10;
-            this.guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(154, 42);
-            this.guna2GradientButton1.TabIndex = 16;
-            this.guna2GradientButton1.Text = "SIGN UP";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
+            guna2GradientButton1.Animated = true;
+            guna2GradientButton1.BackColor = Color.Transparent;
+            guna2GradientButton1.BorderColor = Color.FromArgb(51, 51, 51);
+            guna2GradientButton1.BorderRadius = 10;
+            guna2GradientButton1.BorderThickness = 2;
+            guna2GradientButton1.CustomizableEdges = customizableEdges5;
+            guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientButton1.FillColor = Color.Transparent;
+            guna2GradientButton1.FillColor2 = Color.Transparent;
+            guna2GradientButton1.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2GradientButton1.ForeColor = Color.Black;
+            guna2GradientButton1.HoverState.BorderColor = Color.Transparent;
+            guna2GradientButton1.HoverState.FillColor = Color.Silver;
+            guna2GradientButton1.HoverState.FillColor2 = Color.White;
+            guna2GradientButton1.HoverState.ForeColor = Color.Black;
+            guna2GradientButton1.HoverState.Image = (Image)resources.GetObject("resource.Image1");
+            guna2GradientButton1.Image = (Image)resources.GetObject("guna2GradientButton1.Image");
+            guna2GradientButton1.ImageAlign = HorizontalAlignment.Left;
+            guna2GradientButton1.ImageOffset = new Point(10, 0);
+            guna2GradientButton1.Location = new Point(823, 654);
+            guna2GradientButton1.Name = "guna2GradientButton1";
+            guna2GradientButton1.Padding = new Padding(15, 0, 0, 0);
+            guna2GradientButton1.ShadowDecoration.BorderRadius = 10;
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2GradientButton1.Size = new Size(154, 42);
+            guna2GradientButton1.TabIndex = 16;
+            guna2GradientButton1.Text = "SIGN UP";
+            guna2GradientButton1.Click += guna2GradientButton1_Click;
             // 
             // label9
             // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
-            this.label9.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label9.Location = new System.Drawing.Point(327, 563);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(166, 146);
-            this.label9.TabIndex = 17;
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Image = (Image)resources.GetObject("label9.Image");
+            label9.ImageAlign = ContentAlignment.TopLeft;
+            label9.Location = new Point(327, 563);
+            label9.Name = "label9";
+            label9.Size = new Size(166, 146);
+            label9.TabIndex = 17;
+            label9.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(489, 589);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(492, 23);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Create Your Account Here!! and Start Explorering About Games..";
+            label10.BackColor = Color.Transparent;
+            label10.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.Location = new Point(489, 589);
+            label10.Name = "label10";
+            label10.Size = new Size(492, 23);
+            label10.TabIndex = 18;
+            label10.Text = "Create Your Account Here!! and Start Explorering About Games..";
             // 
             // label11
             // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Tw Cen MT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label11.Location = new System.Drawing.Point(476, 643);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(266, 53);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Don\'t Worry Mate Getting That Button For You!!";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Segoe UI Semibold", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.ImageAlign = ContentAlignment.TopRight;
+            label11.Location = new Point(476, 643);
+            label11.Name = "label11";
+            label11.Size = new Size(167, 53);
+            label11.TabIndex = 19;
+            label11.Text = "Don't Worry Mate Getting That Button For You!!";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(1087, 211);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(123, 24);
-            this.label12.TabIndex = 20;
-            this.label12.Text = "Some Popular";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(1081, 213);
+            label12.Name = "label12";
+            label12.Size = new Size(114, 20);
+            label12.TabIndex = 20;
+            label12.Text = "Some Popular";
+            label12.TextAlign = ContentAlignment.TopCenter;
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.Firebrick;
-            this.label13.Location = new System.Drawing.Point(1203, 208);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(107, 24);
-            this.label13.TabIndex = 21;
-            this.label13.Text = "`Features`";
+            label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
+            label13.Font = new Font("Lucida Sans Unicode", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.ForeColor = Color.Firebrick;
+            label13.Location = new Point(1201, 208);
+            label13.Name = "label13";
+            label13.Size = new Size(124, 23);
+            label13.TabIndex = 21;
+            label13.Text = "`Features`";
             // 
             // label14
             // 
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(1087, 292);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(215, 79);
-            this.label14.TabIndex = 22;
-            this.label14.Text = "This App is All About Games. Latest News About Games or Searching About Games...";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label14.BackColor = Color.Transparent;
+            label14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Location = new Point(1087, 292);
+            label14.Name = "label14";
+            label14.Size = new Size(215, 79);
+            label14.TabIndex = 22;
+            label14.Text = "This App is All About Games. Latest News About Games or Searching About Games...";
+            label14.TextAlign = ContentAlignment.TopCenter;
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.Firebrick;
-            this.label15.Location = new System.Drawing.Point(1087, 366);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(63, 24);
-            this.label15.TabIndex = 23;
-            this.label15.Text = "Steam";
+            label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
+            label15.Font = new Font("Lucida Sans Unicode", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.Firebrick;
+            label15.Location = new Point(1087, 366);
+            label15.Name = "label15";
+            label15.Size = new Size(72, 23);
+            label15.TabIndex = 23;
+            label15.Text = "Steam";
             // 
             // label16
             // 
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(1087, 404);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(223, 68);
-            this.label16.TabIndex = 24;
-            this.label16.Text = "Don\'t Worry it tell about Online Game & Offline Game in Steam. New Game on Steam " +
-    "that your excited about.";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label16.BackColor = Color.Transparent;
+            label16.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(1087, 404);
+            label16.Name = "label16";
+            label16.Size = new Size(223, 68);
+            label16.TabIndex = 24;
+            label16.Text = "Don't Worry it tell about Online Game & Offline Game in Steam. New Game on Steam that your excited about.";
+            label16.TextAlign = ContentAlignment.TopCenter;
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Tempus Sans ITC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label17.Location = new System.Drawing.Point(1186, 544);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(79, 24);
-            this.label17.TabIndex = 25;
-            this.label17.Text = "E-Sport";
+            label17.AutoSize = true;
+            label17.BackColor = Color.Transparent;
+            label17.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label17.ForeColor = Color.WhiteSmoke;
+            label17.Location = new Point(1186, 544);
+            label17.Name = "label17";
+            label17.Size = new Size(80, 24);
+            label17.TabIndex = 25;
+            label17.Text = "E-Sport";
             // 
             // label18
             // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(1072, 540);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(109, 27);
-            this.label18.TabIndex = 26;
-            this.label18.Text = "Tell About";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label18.BackColor = Color.Transparent;
+            label18.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label18.ForeColor = Color.White;
+            label18.Location = new Point(1072, 540);
+            label18.Name = "label18";
+            label18.Size = new Size(109, 27);
+            label18.TabIndex = 26;
+            label18.Text = "Tell About";
+            label18.TextAlign = ContentAlignment.TopCenter;
             // 
             // label19
             // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Tw Cen MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(1089, 587);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(208, 68);
-            this.label19.TabIndex = 27;
-            this.label19.Text = "Esport where Gamer Show there Skill..Esports is competitive video gaming at a pro" +
-    "fessional level, where skilled players and teams engage in organized tournaments" +
-    " across various video game genres. ";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            label19.BackColor = Color.Transparent;
+            label19.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.ForeColor = SystemColors.Control;
+            label19.Location = new Point(1089, 587);
+            label19.Name = "label19";
+            label19.Size = new Size(208, 68);
+            label19.TabIndex = 27;
+            label19.Text = "Esport where Gamer Show there Skill..Esports is competitive video gaming at a professional level, where skilled players and teams engage in organized tournaments across various video game genres. ";
+            label19.TextAlign = ContentAlignment.TopCenter;
             // 
             // Form1
             // 
-            this.AccessibleName = "Welcome";
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1349, 774);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.guna2GradientButton1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2HtmlLabel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Form1";
-            this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Welcome Screen";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AccessibleName = "Welcome";
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            BackColor = SystemColors.ActiveCaptionText;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1349, 774);
+            Controls.Add(label19);
+            Controls.Add(label18);
+            Controls.Add(label17);
+            Controls.Add(label16);
+            Controls.Add(label15);
+            Controls.Add(label14);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(label9);
+            Controls.Add(guna2GradientButton1);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(btnLogin);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(guna2Button1);
+            Controls.Add(guna2HtmlLabel1);
+            FormBorderStyle = FormBorderStyle.None;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Form1";
+            ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Welcome Screen";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
